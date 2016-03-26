@@ -1,10 +1,72 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>BlazeProgramming</title>
-  </head>
-  <body>
-    <h1>Hello</h1>
-    <h3>Testing</h3>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>That is one nice effect...</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                font-family: "Open Sans";
+                margin: 0;
+            }
+            header{
+                background-image: url("https://www.khanacademy.org/computer-programming/new-webpage/5910692385652736/latest.png");
+                background-size: 100%;
+                width: 100%;
+                height:200px;
+                text-align: center;
+            }
+            header img{
+                width: 100%;
+                -webkit-filter: blur(5px);
+                filter: blur(0.5px);
+            }
+            #datlooknoice{
+                color: white;
+                background: rgba(255, 255, 255, 0.4);
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+                width: 100%;
+                height: 200px;
+                letter-spacing: 11px;
+                text-shadow: 0px 0px 15px grey;
+            }
+            header{
+                overflow: hidden;
+            }
+            #wot{
+                position: absolute;
+                width: 100%;
+                top: 51px;
+                left: 0;
+            }
+            #main{
+                padding: 1em;
+            }
+            a{
+                text-decoration: none;
+                color: gray;
+                transition: all 0.5s;
+            }
+            a:hover{
+                text-shadow: 0px 0px 15px blue;
+            }
+        </style>
+    </head>
+    <body>
+        <header><div id="hidden"><img src="https://www.khanacademy.org/computer-programming/new-webpage/5910692385652736/latest.png"></div><div id="datlooknoice" align='center'><h1 id='wot'>blaze</h1></div></header>
+        <div id="main">
+            Hey, I'm <strong>Blaze</strong>! Welcome to my website! I'm a recreational programmer here on Khan Academy, and I also am an avid modder of Civilization IV and Cities: Skylines!
+            <hr>
+            <content>
+                <div>Navigate to...</div>
+                <nav>
+                    <a href="javascript:void(0)">Home</a> • <a href="javascript:void(0)">Bio</a> • <a href="javascript:void(0)">Projects</a> • <a href="javascript:void(0)">More of Me</a>
+                </nav>
+            </content>
+        </div>
+
+    </body>
 </html>
