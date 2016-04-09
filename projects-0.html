@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh-style ^-^</title>
+        <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+    </head>
+    <body>
+        <canvas id="mycanvas"></canvas>
+        <script>
+        var sketchProc = function(processingInstance) {
+         with (processingInstance) {
+            size(400, 400); 
+            frameRate(30);
+            colorMode(HSB);
+            var e = random(0, 255), m = 10, func=(random()<0.5)?rect:ellipse;
+            background(0, 0, 0);
+            stroke(e, 255, 255, 247);
+            fill(e, 255, 255, 69);
+            for(var i = 0; i < 35; i++){
+                filter(BLUR);
+                func(random(400), random(400), m, m);
+                m += (m/12);
+            }
+        }};
+    
+        // Get the canvas that Processing-js will use
+        var canvas = document.getElementById("mycanvas"); 
+        // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+        var processingInstance = new Processing(canvas, sketchProc); 
+            
+        </script>
+
+    </body>
+</html>
