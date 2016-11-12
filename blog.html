@@ -22,6 +22,11 @@
         width: 90%;
       }
     </style>
+    <script type="text/javascript">
+      function scrollTo(selector){
+        $(selector).scrollIntoView();
+      }
+    </script>
   </head>
   <body data-spy="scroll" data-target=".navbar">
   <!-- nav basic code from http://getbootstrap.com/examples/navbar-fixed-top/ , but edited -->
@@ -53,8 +58,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog Articles <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#tucker">Tucker</a></li>
-                <li><a href="#q-cascade">Q-Cascade</a></li>
+                <li><a href="#" onclick="scrollTo('#tucker')">Tucker</a></li>
+                <li><a href="#" onclick="scrollTo('#q-cascade')">Q-Cascade</a></li>
               </ul>
             </li>
           </ul>
