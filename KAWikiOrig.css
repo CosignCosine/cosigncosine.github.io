@@ -1,0 +1,154 @@
+/* Global wikia CSS */
+@import url(http://dev.wikia.com/index.php?title=FontAwesome/code.css&action=raw&ctype=text/css);@import url(http://cdn.jsdelivr.net/font-comicneue/1.1/font.css);@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin);@import url(http://fonts.googleapis.com/css?family=News+Cycle&subset=latin);@import url(http://cdn.jsdelivr.net/normalize/3.0.2/normalize.min.css);@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');body{font-family:Arial, sans-serif}img.avatar{border-radius:50%}.accordion{width:380px;margin:20px auto}.accordion *{margin:0!important}.accordion h1{padding:15px 20px;background-color:#333;font-family:Lobster,sans-serif;color:#1ABC9C}.accordion h1:hover{color:#4AFCDC}.accordion h1:not(:last-of-type){border-bottom:1px dotted #1ABC9C}.accordion h2,.accordion h3,.accordion h4{font-family:'News Cycle',sans-serif}.accordion h2{padding:5px 20px 5px 25px;background-color:#1ABC9C;font-size:1.2em;color:#333}.accordion h2:hover{background-color:#09AB8B}.accordion h3{padding:5px 20px 5px 30px;background-color:#B94152;color:#DDD}.accordion h3:hover{background-color:#A93142}.accordion h4{padding:5px 20px 5px 35px;background-color:#FFC25A;color:#AF720A}.accordion h4:hover{background-color:#E0B040}.accordion div,.accordion p{display:none}.accordion p{padding:15px 35px;background-color:#DDD;color:#333}.accordion .opened{display:block}.accordion .completed{float:right;color:#FF0}.infobox{width:300px;text-align:center;vertical-align:middle}.infobox tr td,.infobox tr th{padding:.3em}.infobox tr.box-image td,.infobox tr.box-title th{font-size:120%;padding:1em 0}.infobox tr.box-description td{font-style:italic}.infobox tr.box-detail td:first-child{text-align:left;font-weight:700;width:60%}.infobox tr.box-detail td:last-child{width:40%}.infobox.meteorite tr th{background-color:#BF4028;color:#FFF}.infobox.moon tr th{background-color:#136A73;color:#FFF}.infobox.earth tr th{background-color:#47B365;color:#FFF}.infobox.sun tr th{background-color:#F9A11B;color:#FFF}.infobox.black-hole tr th{background-color:#BF207C;color:#FFF}.infobox.challenge-patch tr th{background-color:#5379B7;color:#FFF}.energy-points{color:#FFF;background-color:#005A88;padding:5px;border-radius:3px}.true{color:#228B22}.false{color:#E62020}.info{color:#C71585}.removed{color:#FF7518}.unique{color:#FFDF00}.leaderboard{margin:1em 0;min-width:300px}.leaderboard tfoot tr,.leaderboard thead tr{color:#FFF;font-weight:700}.leaderboard tbody tr:nth-child(odd){background-color:#F6F6F6}.leaderboard tbody tr:nth-child(even){background-color:#DEDEDE}.leaderboard tbody tr:hover{background-color:#ABCDEF}.leaderboard tr td,.leaderboard tr th{margin:.5em 1em}.leaderboard tfoot,.leaderboard th,.leaderboard thead{display:none}.leaderboard td{display:block}.leaderboard td:before{content:attr(data-th);font-weight:700;width:100%;display:inline-block;vertical-align:middle}.leaderboard td:first-child{padding-top:.5em}.leaderboard td:last-child{padding-bottom:.5em}@media (min-width:600px){.leaderboard thead{display:table-header-group}.leaderboard tfoot{display:table-footer-group}.leaderboard td,.leaderboard th{display:table-cell;padding:.5em 1em;text-align:center;vertical-align:middle}.leaderboard td:before{display:none}}.leaderboard.blue tr.club td:last-child,.leaderboard.green tr.club td:last-child,.leaderboard.purple tr.club td:last-child,.leaderboard.purple-6 tr.club td:last-child,.leaderboard.purple-7 tr.club td:last-child,.leaderboard.purple-8 tr.club td:last-child,.leaderboard.purple-9 tr.club td:last-child,.leaderboard.red tr.club td:last-child,.leaderboard.special tr.club td:last-child,.leaderboard.teal tr.club td:last-child,.leaderboard.yellow tr.club td:last-child{color:#FFF;font-family:Lobster,sans-serif;font-size:1.3em;font-weight:700}.leaderboard.blue{background-color:#5379B7}.leaderboard.blue td:before{color:#5379B7}.leaderboard.blue tr.club{background-color:#829CD0}.leaderboard.green{background-color:#47B365}.leaderboard.green td:before{color:#47B365}.leaderboard.green tr.club{background-color:#ADD688}.leaderboard.red{background-color:#BF4028}.leaderboard.red td:before{color:#BF4028}.leaderboard.red tr.club{background-color:#EC6948}.leaderboard.special{background-color:#0E4E65}.leaderboard.special td:before{color:#0E4E65}.leaderboard.special tr.club{background-color:#8BAEB9}.leaderboard.teal{background-color:#136A73}.leaderboard.teal td:before{color:#136A73}.leaderboard.teal tr.club{background-color:#4A9496}.leaderboard.yellow{background-color:#F9A11B}.leaderboard.yellow td:before{color:#F9A11B}.leaderboard.yellow tr.club{background-color:#FFE354}.leaderboard.purple{background-color:#BF207C}.leaderboard.purple td:before{color:#BF207C}.leaderboard.purple tr.club{background-color:#C366A1}.leaderboard.purple-9{background-color:#CE2285}.leaderboard.purple-9 td:before{color:#CE2285}.leaderboard.purple-9 tr.club{background-color:#C872A8}.leaderboard.purple-8{background-color:#DB268F}.leaderboard.purple-8 td:before{color:#DB268F}.leaderboard.purple-8 tr.club{background-color:#CD7EB0}.leaderboard.purple-7{background-color:#DD3596}.leaderboard.purple-7 td:before{color:#DD3596}.leaderboard.purple-7 tr.club{background-color:#D18BB7}.leaderboard.purple-6{background-color:#E0439E}.leaderboard.purple-6 td:before{color:#E0439E}.leaderboard.purple-6 tr.club{background-color:#D697BF}.leaderboard-confirmed{color:#228B22}.leaderboard-ordered-by{color:#0FF}.leaderboard-stats{font-size:1.2em;text-shadow:#474747 3px 5px 2px,#FFF 0 0 10px}.leaderboard-energy-points{font-weight:700;color:#BF207C}.leaderboard-total-badges{font-weight:700;color:#BF4028}.cyan-avatar{text-align:center;background-color:#2D3847;padding:.5em;border-radius:5px}.cyan-info{padding:5% 10%}.cyan-statistics{width:50%;margin:auto}.cyan-statistics tr td:first-child{font-weight:700;text-align:left;width:35%}.cyan-statistics tr td:last-child{text-align:center;width:15%}.cyan-case{background-color:#EEE;width:75%;margin:auto;border:2px solid #494949}.cyan-case .plainlinks a span{color:#FF2400}.cyan-case tr td{text-align:center;padding:.5em 0}.cyan-badges{color:#0FF;font-size:20px;font-weight:700;display:block;background-color:#000;padding:3px}.ambox{font-size:95%;width:80%;margin:0 auto;border:1px solid #AAA;border-left:10px solid #228B22;border-collapse:collapse;background-color:#EEE}.ambox-blue{border-left:10px solid #1E90FF}.ambox-red{border-left:10px solid #B22222}.ambox-orange{border-left:10px solid #F28500}.ambox-yellow{border-left:10px solid #F4C430}.ambox-purple{border-left:10px solid #9932CC}.ambox-gray{border-left:10px solid #BBA}.ambox-green{border-left:10px solid #228B22}.ambox-smalltext{font-size:smaller;margin-top:.5em;margin-left:.8em}.ambox-image{width:60px;padding:2px 0 2px .5em;text-align:center}@media print{.ambox{display:none}}
+/***** Custom cursor *****/
+/* Global cursor */
+body {
+    cursor: url('http://vignette2.wikia.nocookie.net/khanacademy/images/1/1f/Leaf-blue-cursor.png/revision/latest?cb=20160307184647'), context-menu; 
+}
+a, .wikia-button, .Rail .User:hover {
+    cursor: url('http://vignette2.wikia.nocookie.net/khanacademy/images/c/c8/Leaf-green-cursor.png/revision/latest?cb=20160307184656'), pointer !important;
+}
+
+.ChatWindow [data-user="HMcCoy"] .username{
+    color: Purple;
+    font-size: 4;
+    font-family: Arial;
+}
+.ChatWindow [data-user="HMcCoy"] .username:after{
+    content: " (Mathemagician)";
+    font-size: 1; 
+    color: Purple;
+    font-family: Arial;
+}
+.ChatWindow [data-user="Tariq Jabbar"] .username{
+    color: #00002c;
+    font-size: 4; 
+    font-family: Arial;
+}
+.ChatWindow [data-user="Tariq Jabbar"] .username:after{
+    content: " (B-crat)";
+    font-size: 1; 
+    color: #00002c;
+    font-family: Arial;
+}
+.ChatWindow [data-user="Trekcelt"] .username {
+ 
+    font-family: Arial;
+    font-size: 4;
+    color: #0000cd;
+}
+ 
+.ChatWindow [data-user="Trekcelt"] .username:after{
+ 
+    content: " (White Council)";
+    font-family: Arial;
+    font-size: 1;
+    color: #0000cd;
+}
+
+.ChatWindow [data-user="EytukanStudios"] .username {
+
+    font-family: Arial;
+    font-size: 4;
+}
+ 
+.ChatWindow [data-user="EytukanStudios"] .username:after{
+    content: " (Admin)";
+    font-family: Arial;
+    font-size: 1;
+}
+.ChatWindow [data-user="VirusKA"] .username{
+    color: blue;
+    font-size: 4;
+    font-family: Arial;
+}
+.ChatWindow [data-user="VirusKA"] .username:after{
+    content: " (Chuck Norris)";
+    font-size: 1; 
+    color: blue;
+    font-family: Arial;
+}
+[data-user="Elektrix"] .username{
+    color: rgb(89, 0, 255);
+    font-family:"Open Sans", arial;
+    font-weight:bold;
+}
+
+a[href$="/wiki/User:Trekcelt"],
+a[href$=":Trekcelt"],
+a[href$="/Trekcelt"] {
+    color: #0000cd !important;
+    font-weight: bold !important;
+    font-family: Arial !important;
+}
+
+a[href$="/wiki/User:Elektrix"],
+a[href$=":Elektrix"],
+a[href$="/Elektrix"] {
+    color: #4286f4 !important;
+    font-family:"Open Sans", arial !important;
+    font-weight:bold !important;
+}
+
+a[href$="/wiki/User:HMcCoy"],
+a[href$=":HMcCoy"],
+a[href$="/HMcCoy"] {
+    color: Purple !important;
+    font-weight: bold !important;
+    font-family: Arial !important;
+}
+
+a[href$="/wiki/User:Tariq_Jabbar"],
+a[href$=":Tariq_Jabbar"],
+a[href$="/Tariq_Jabbar"] {
+    color: #00002c !important;
+    font-weight: bold !important;
+    font-family: Arial !important;
+}
+
+a[href$="/wiki/User:VirusKA"],
+a[href$=":VirusKA"],
+a[href$="/VirusKA"] {
+    color: blue !important;
+    font-weight: bold !important;
+    font-family: Arial !important;
+}
+.Wall .edited-by a[href$="Trekcelt"] ~ .subtle::after {
+  content: " (White Council)";
+}
+.Wall .edited-by a[href$="EytukanStudios"] ~ .subtle::after {
+  content: " (Admin)";
+}
+.Wall .edited-by a[href$="HMcCoy"] ~ .subtle::after {
+  content: " (Mathemagician)";
+}
+.Wall .edited-by a[href$="Tariq_Jabbar"] ~ .subtle::after {
+  content: " (B-crat)";
+}
+.Wall .edited-by a[href$="VirusKA"] ~ .subtle::after {
+  content: " (Chuck Norris)";
+}
+.Wall .edited-by a[href$="Light.Runner.Explorer"] ~ .subtle::after {
+  content: " (Local Community Liaison)";
+}
+
+.Wall .edited-by a[href$="Elektrix"] ~ .subtle::after {
+  content: " (Scott Schraeder)";
+  color: grey;
+  font-weight: normal;
+}
+
+.ChatWindow .Chat .avatar {
+ border: 2px solid #e0e0e0;
+ border-radius: 100px;
+ -webkit-transition: -webkit-transform 1.1s cubic-bezier(.53,3,.42,.36);
+ transition: transform 1.3s cubic-bezier(.53,3,.42,.36);
+}
+ 
+.ChatWindow .Chat .avatar:hover {
+ -webkit-transform: rotate(80deg);
+ -ms-transform: rotate(80deg);
+ transform: rotate(80deg);
+ -webkit-transition: -webkit-transform 1.2s cubic-bezier(.17,0,0,1);
+ transition: transform 1.4s cubic-bezier(.17,0,0,1);
+}
