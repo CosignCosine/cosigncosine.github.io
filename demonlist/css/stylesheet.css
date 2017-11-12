@@ -1,0 +1,119 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background: rgb(196, 60, 86);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+#sitename{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  font-size: 2em;
+}
+
+#pc-link{
+  position: fixed;
+  text-align: right;
+  top: 35px;
+  right: 30px;
+  font-size: 1.3em;
+}
+#list{
+  background: rgb(219, 100, 123);
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 30%;
+  height: 100%;
+}
+#additional-information{
+  background: rgb(219, 100, 123);
+  position: fixed;
+  top: 100px;
+  right: 0;
+  width: 30%;
+  height: 100%;
+}
+#info{
+  background: rgb(241, 163, 178);
+  position: fixed;
+  top: 100px;
+  left: 30%;
+  width: 40%;
+  height: 100%;
+}
+#inner-info{
+  padding: 1em;
+}
+hr{
+  border: 1px solid white;
+}
+.entry{
+  padding: 1em;
+  color: white;
+}
+.entry:nth-child(odd){
+  background: rgba(255, 255, 255, 0.1);
+}
+.entry:hover{
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.selected{
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+.author{
+  font-variant: small-caps;
+}
+#levelname{
+  font-size: 1.7em;
+  font-weight: bold;
+  color: white;
+}
+#levelauthor{
+  font-size: 1.1em;
+  color: white;
+}
+#leveldescription{
+  font-size: 0.8em;
+  font-variant: small-caps;
+  color: white;
+}
+#vid{
+  width: 100%;
+  height: 100%;
+}
+#records{
+  color: white;
+  width: 100%;
+}
+#records-title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#records-table{
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+}
+.interentry{
+  width: 100%;
+  padding: 0.5em;
+}
+.record-entry:nth-child(even){
+  background: rgba(0, 0, 0, 0.1)
+}
+.record-entry:nth-child(odd){
+  background: rgba(255, 255, 255, 0.1)
+}
