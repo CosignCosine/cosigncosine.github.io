@@ -48,7 +48,7 @@ header{
   width: 40%;
   height: 100%;
 }
-#inner-info{
+#inner-info, #inner-right-info{
   padding: 1em;
 }
 hr{
