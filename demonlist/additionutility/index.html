@@ -47,17 +47,13 @@
           hacked: !!$("#lh").val(),
           vids: vidLiteral
         })
-        $("lol-hi").empty().html(`
-          <h1>Demonlist Addition Utility</h1>
-          <h5>by cosigncosine</h5>
-          <div>Level Name: <input id="ln"></div>
-          <div>Level Author: <input id="la"></div>
-          <div>Qualification: <input id="lq" type="number"></div>
-          <div>Verification: <input id="lv"></div>
-          <div>Description: <input id="ld" value="n/a"></div>
-          <div>Videos: <button class="av">Add Video</button><div id="videos"></div></div>
-          <div>Hacked: <input type="checkbox" id="lh"></div>
-        `)
+        $("#ln").val("")
+        $("#la").val("")
+        $("#lq").val("")
+        $("#ld").val("n/a")
+        $("#lv").val("")
+        $("#lh").val("")
+        $("#videos").empty();
       })
     </script>
   </body>
