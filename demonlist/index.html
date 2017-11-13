@@ -81,7 +81,7 @@
     </script>
     <header id="dl-header">
       <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list</div>
-      <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list</a></div>
+      <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
     </header>
     <div id="list">
     </div>
@@ -104,11 +104,13 @@
     </div>
     <div id="additional-information"></div>
     <script name="postload" type="text/javascript">
+      var l = getParameterByName('q', window.location.href)*1-1;
+      console.log(l)
       var list_node = $("#list");
       var record_node = $("#records-table")
       for(var i = 0; i < list.length; i++){
         var entry = list[i];
-        $("<div>").addClass(i === 0 ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+        $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
       }
       // handlers
       var load = function(node){
@@ -118,31 +120,34 @@
         }else{
           num = $(node).attr('value')
         }
-
         var entry = list[num];
-        if(!entry.hacked){
-          entry.verificationVid = entry.verificationVid
-            .replace(/www\.youtube.com\/watch\?v=/gi, '')
-            .replace(/&t=\d+s/gi, '')
-            .replace(/https:\/\//gi, '')
-        }
-        console.log(entry.verificationVid)
-        $("#levelname").text(entry.name);
-        $("#inside-level-author").text(entry.author);
-        $("#leveldescription").text(entry.desc);
-        $("#levelvid").empty();
-        if(!entry.hacked){
-          $("#levelvid").html(`<hr><iframe id="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
-        }
-        $("#levelqualify").text(entry.percentToQualify);
-
-        $(record_node).empty();
-        for(var j = 0; j < entry.vids.length; j++){
-          var record = entry.vids[j];
-          if(!record.link.includes('https://')){
-            record.link = "https://" + record.link;
+        if(!entry){
+          load(0)
+        }else{
+          if(!entry.hacked){
+            entry.verificationVid = entry.verificationVid
+              .replace(/www\.youtube.com\/watch\?v=/gi, '')
+              .replace(/&t=\d+s/gi, '')
+              .replace(/https:\/\//gi, '')
           }
-          $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
+          console.log(entry.verificationVid)
+          $("#levelname").text(entry.name);
+          $("#inside-level-author").text(entry.author);
+          $("#leveldescription").text(entry.desc);
+          $("#levelvid").empty();
+          if(!entry.hacked){
+            $("#levelvid").html(`<hr><iframe id="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+          }
+          $("#levelqualify").text(entry.percentToQualify);
+
+          $(record_node).empty();
+          for(var j = 0; j < entry.vids.length; j++){
+            var record = entry.vids[j];
+            if(!record.link.includes('https://')){
+              record.link = "https://" + record.link;
+            }
+            $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
+          }
         }
       };
       $('.entry').click(function(){
@@ -150,8 +155,17 @@
         $(this).addClass('selected');
         load(this);
       })
-
-      load(0)
+      // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      load(l*1)
     </script>
     <noscript>
       <div id="block">
