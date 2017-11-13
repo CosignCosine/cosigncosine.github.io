@@ -25,10 +25,17 @@
       $("#av").click(function(){
         $("<div>").html('Link: <input class="link"> Author: <input class="author"> Percent: <input class="percent"> <button onclick="$(this).parent().remove()">Remove Vid</button>').appendTo($("#videos"))
       })
+      $("#showlist").click(function(){
+        console.info(list);
+      })
       $("#submit").click(function(){
         var vidLiteral = [];
         $("#videos").children().each(function(){
-          console.log($(this).find('.link').val());
+          vidLiteral.push({
+            user: $(this).find('.author').val(),
+            percent: $(this).find('.percent').val(),
+            link: $(this).find('.link').val()
+          });
         })
         list.push({
           name: $("#ln").val(),
