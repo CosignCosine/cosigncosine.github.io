@@ -50,6 +50,7 @@ header{
 }
 #inner-info, #inner-right-info{
   padding: 1em;
+  color: white;
 }
 hr{
   border: 1px solid white;
