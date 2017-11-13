@@ -18,7 +18,7 @@
     <div>Hacked: <input type="checkbox" id="lh"></div>
     <script name="postload">
       $("#av").click(function(){
-        $("<div>").html('Link: <input class="link"> Author: <input class="author"> Percent: <input class="percent"> <button onclick="$(this).parent().remove()">Remove Vid</button>')
+        $("<div>").html('Link: <input class="link"> Author: <input class="author"> Percent: <input class="percent"> <button onclick="$(this).parent().remove()">Remove Vid</button>').appendTo($("#videos"))
       })
     </script>
   </body>
