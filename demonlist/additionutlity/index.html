@@ -8,18 +8,47 @@
     <script name="preload">
       var list = [];
     </script>
-    <h1>Demonlist Addition Utility</h1>
-    <h5>by cosigncosine</h5>
-    <div>Level Name: <input id="ln"></div>
-    <div>Level Author: <input id="la"></div>
-    <div>Qualification: <input id="lq" type="number"></div>
-    <div>Verification: <input id="lv"></div>
-    <div>Videos: <button id="av">Add Video</button><div id="videos"></div></div>
-    <div>Hacked: <input type="checkbox" id="lh"></div>
+    <lol-hi>
+      <h1>Demonlist Addition Utility</h1>
+      <h5>by cosigncosine</h5>
+      <div>Level Name: <input id="ln"></div>
+      <div>Level Author: <input id="la"></div>
+      <div>Qualification: <input id="lq" type="number"></div>
+      <div>Verification: <input id="lv"></div>
+      <div>Description: <input id="ld" value="n/a"></div>
+      <div>Videos: <button id="av">Add Video</button><div id="videos"></div></div>
+      <div>Hacked: <input type="checkbox" id="lh"></div>
+    </lol-hi>
     <button id='submit'>Add Demon</button>
+    <button id='showlist'>Log List to Console</button>
     <script name="postload">
       $("#av").click(function(){
         $("<div>").html('Link: <input class="link"> Author: <input class="author"> Percent: <input class="percent"> <button onclick="$(this).parent().remove()">Remove Vid</button>').appendTo($("#videos"))
+      })
+      $("#submit").click(function(){
+        var vidLiteral = [];
+        $("#videos").children().each(function(){
+          console.log($(this).find('.link').val());
+        })
+        list.push({
+          name: $("#ln").val(),
+          author: $("#la").val(),
+          percentToQualify: $("#lq").val(),
+          desc: $("#ld").val(),
+          verificationVid: $("#lv").val(),
+          hacked: !!$("#lh").val(),
+          vids: vidLiteral
+        })
+        $("lol-hi").empty().html(`
+          <h1>Demonlist Addition Utility</h1>
+          <h5>by cosigncosine</h5>
+          <div>Level Name: <input id="ln"></div>
+          <div>Level Author: <input id="la"></div>
+          <div>Qualification: <input id="lq" type="number"></div>
+          <div>Verification: <input id="lv"></div>
+          <div>Videos: <button id="av">Add Video</button><div id="videos"></div></div>
+          <div>Hacked: <input type="checkbox" id="lh"></div>
+        `)
       })
     </script>
   </body>
