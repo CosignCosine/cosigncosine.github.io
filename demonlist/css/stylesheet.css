@@ -7,7 +7,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 10%;
   color: white;
 }
 #sitename{
@@ -27,27 +27,27 @@ header{
 #list{
   background: rgb(219, 100, 123);
   position: fixed;
-  top: 100px;
+  top: 10%;
   left: 0;
   width: 30%;
-  height: 100%;
+  height: 90%;
   overflow-y: auto;
 }
 #additional-information{
   background: rgb(219, 100, 123);
   position: fixed;
-  top: 100px;
+  top: 10%;
   right: 0;
   width: 30%;
-  height: 100%;
+  height: 90%;
 }
 #info{
   background: rgb(241, 163, 178);
   position: fixed;
-  top: 100px;
+  top: 10%;
   left: 30%;
   width: 40%;
-  height: 100%;
+  height: 90%;
 }
 #inner-info, #inner-right-info{
   padding: 1em;
@@ -87,9 +87,8 @@ hr{
   font-variant: small-caps;
   color: white;
 }
-#vid{
+.vid{
   width: 100%;
-  height: 100%;
 }
 #records{
   color: white;
