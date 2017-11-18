@@ -105,8 +105,6 @@ a{
 }
 #records-table{
   width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 .interentry{
   width: 100%;
