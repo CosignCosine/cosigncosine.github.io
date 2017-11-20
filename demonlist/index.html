@@ -11,51 +11,52 @@
 <body>
   <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
   <script type='text/javascript' src="js/list.js"></script>
-  <header id="dl-header">
-    <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: changed the site font to Nunito, migrated to external script loading for the list for cleanliness">(v2.1.0)</em></div>
-    <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
-  </header>
-  <div id="list">
-  </div>
-  <div id="info">
-    <div id="inner-info">
-      <div id="levelname"></div>
-      <div id="levelauthor">by <em id="inside-level-author"></em></div>
-      <br>
-      <div id="leveldescription"></div>
-      <div id="levelvid"></div>
-      <hr>
-      <div id="records">
-        <div id="records-title">Records</div>
-        <div id="qualification"><strong id="levelqualify"></strong>% to qualify.</div>
+  <cover-all id="hi">
+    <header id="dl-header">
+      <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: M A N Y  C O L O R S">(v2.2.0)</em></div>
+      <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
+    </header>
+    <div id="list">
+    </div>
+    <div id="info">
+      <div id="inner-info">
+        <div id="levelname"></div>
+        <div id="levelauthor">by <em id="inside-level-author"></em></div>
         <br>
-        <div id="records-table">
+        <div id="leveldescription"></div>
+        <div id="levelvid"></div>
+        <hr>
+        <div id="records">
+          <div id="records-title">Records</div>
+          <div id="qualification"><strong id="levelqualify"></strong>% to qualify.</div>
+          <br>
+          <div id="records-table">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="additional-information">
-    <div id="inner-right-info">
-      <div><strong>Join the <a href="https://discord.gg/nZuWyGY">official discord server</a> for information, submissions, and bug reporting!</strong></div>
-      <br>
-      <div>
-        The HTML for this page was written by <strong>Elektrix</strong> (CosignCosine). This list is curated by <strong>TheZakkAttack</strong>, based on the forum list <strong><a href="http://gdforum.freeforums.net/thread/49574/demon-unofficial-unrated-demons-record">here</a></strong>.
-        Thanks to <strong>17chose17</strong> for helping to find a ton of bugs with the page. It's very appreciated! :)
-        <br><br> Levels can be suggested for this list if they meet the requirements listed:
-        <ul>
-          <li>Has been verified legitimately and/or has been around a long time.
-            <li>Has more than 500 likes and/or TheZakkAttack knows the creator (as in he has actually played or seen footage of one of his/her levels).
-              <li>The level is harder than Ultraviolet. (Formerly Ultrasonic)
-                <li>The level is not a previous update to a rated level. (For example, Old Cataclysm is not allowed on this list, but Future Demoness X is allowed since it has some original decoration and is harder than the rated version).
-                  <li>The level isn't a different version of a level already on the list.
-        </ul>
-        If you would like to suggest a level, please go to the forum thread linked above.
+    <div id="additional-information">
+      <div id="inner-right-info">
+        <div><strong>Join the <a href="https://discord.gg/nZuWyGY">official discord server</a> for information, submissions, and bug reporting!</strong></div>
+        <br>
+        <div>
+          The HTML for this page was written by <strong>Elektrix</strong> (CosignCosine). This list is curated by <strong>TheZakkAttack</strong>, based on the forum list <strong><a href="http://gdforum.freeforums.net/thread/49574/demon-unofficial-unrated-demons-record">here</a></strong>.
+          Thanks to <strong>17chose17</strong> for helping to find a ton of bugs with the page. It's very appreciated! :)
+          <br><br> Levels can be suggested for this list if they meet the requirements listed:
+          <ul>
+            <li>Has been verified legitimately and/or has been around a long time.
+              <li>Has more than 500 likes and/or TheZakkAttack knows the creator (as in he has actually played or seen footage of one of his/her levels).
+                <li>The level is harder than Ultraviolet. (Formerly Ultrasonic)
+                  <li>The level is not a previous update to a rated level. (For example, Old Cataclysm is not allowed on this list, but Future Demoness X is allowed since it has some original decoration and is harder than the rated version).
+                    <li>The level isn't a different version of a level already on the list.
+          </ul>
+          If you would like to suggest a level, please go to the forum thread linked above.
+        </div>
       </div>
     </div>
-  </div>
+  </cover-all>
   <script name="postload" type="text/javascript">
     var l = getParameterByName('q', window.location.href) * 1 - 1;
-    console.log(l)
     var list_node = $("#list");
     var record_node = $("#records-table")
     for (var i = 0; i < list.length; i++) {
@@ -80,7 +81,6 @@
             .replace(/&t=\d+s/gi, '')
             .replace(/https:\/\//gi, '')
         }
-        console.log(entry.verificationVid)
         $("#levelname").html(entry.name + (entry.hacked ? " <span class='hacked'>HACKED</span>" : ""));
         $("#inside-level-author").text(entry.author);
         $("#leveldescription").text(entry.desc);
@@ -118,12 +118,20 @@
     load(l * 1)
   </script>
   <script>
+    // height changing script
     var height = window.screen.availHeight;
     let remainingHeight = (height - 197) + "px";
-    console.log(remainingHeight)
     $("#list").css('height', remainingHeight)
     $("#additional-information").css('height', remainingHeight)
     $("#info").css('height', remainingHeight)
+
+    // random color
+    var c = Math.floor(Math.random()*256);
+    if(c > 25 && c < 170){
+      $("*").css('color', 'black')
+      $("hr").css('border', '1px solid black')
+    }
+    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 50%);')
   </script>
   <noscript>
       <div id="block">

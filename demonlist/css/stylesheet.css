@@ -2,7 +2,6 @@
   font-family: 'Nunito', sans-serif;
 }
 header{
-  background: rgb(196, 60, 86);
   position: fixed;
   top: 0;
   left: 0;
@@ -25,7 +24,7 @@ header{
   font-size: 1.3em;
 }
 #list{
-  background: rgb(219, 100, 123);
+  background: rgba(255, 255, 255, 0.3);
   position: fixed;
   top: 100px;
   left: 0;
@@ -33,7 +32,7 @@ header{
   overflow-y: auto;
 }
 #additional-information{
-  background: rgb(219, 100, 123);
+  background: rgba(255, 255, 255, 0.3);
   position: fixed;
   top: 100px;
   right: 0;
@@ -41,7 +40,7 @@ header{
   overflow-y: auto;
 }
 #info{
-  background: rgb(241, 163, 178);
+  background: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 100px;
   left: 30%;
@@ -131,4 +130,13 @@ a{
   font-size: 0.4em;
   padding: 0.4em;
   border-radius: 1em;
+}
+#hi{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  z-index: 99;
 }
