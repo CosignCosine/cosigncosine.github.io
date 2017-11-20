@@ -1,209 +1,237 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Geometry Dash Unrated Demonlist</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700" rel="stylesheet">
-    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-      const list = [
-        {
-          name: 'Death Corridor',
-          author: 'KaotikJumper',
-          id: 'n/a',
-          hacked: true,
-          percentToQualify: 46,
-          desc: 'n/a',
-          verificationVid: null,
-          vids: [
-            {
-              user: 'Sunix',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=9799msdH394&t=144s'
-            },
-            {
-              user: 'NoctaFly',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=kUxKBqsPZr8'
-            },
-            {
-              user: 'EndLevel',
-              percent: 63,
-              link: 'www.youtube.com/watch?v=5ovINuFEH-U'
-            },
-            {
-              user: 'Beany',
-              percent: 50,
-              link: 'www.youtube.com/watch?v=f0u8KIxhTzI'
-            }
-          ]
-        },
-        {
-          name: 'Athanasia',
-          author: 'ViRuZ and GD Foxy',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 50,
-          desc: `This isn't actually the real description. This is just a fake one to test out the formatting. If you were to put in an actual description here, it would fit nicely.`,
-          verificationVid: 'https://www.youtube.com/watch?v=xNSfe7cqA0Q&t=68s',
-          vids: [
-            {
-              user: 'Antares',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=b1_y56OlX4E'
-            },
-            {
-              user: 'GD Foxy',
-              percent: 51,
-              link: 'www.youtube.com/watch?v=GlMEHiujKl0'
-            }
-          ]
-        },
-        {
-          name: 'Silent Club',
-          author: 'Superex95',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 34,
-          desc: `n/a`,
-          verificationVid: 'https://www.youtube.com/watch?v=uSPCHI6LxdQ&t=21s',
-          vids: [
-            {
-              user: 'SirGuillester',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=Xp5mlIpa59E&t=12s'
-            }
-          ]
-        },
-        {
-          name: 'The Hell Origin',
-          author: 'Stormfly and more',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 42,
-          desc: `n/a`,
-          verificationVid: 'https://www.youtube.com/watch?v=2fZ_4jAGsQc',
-          vids: [
-            {
-              user: 'Luqualizer',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=jX1rqngvBQI'
-            },
-            {
-              user: 'Herdys',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=1lWqpU3E6PM'
-            }
-          ]
-        },
-        {
-          name: 'Asmodeus',
-          author: 'Vexion and more [Sonic80]',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 43,
-          desc: 'n/a',
-          verificationVid: 'https://www.youtube.com/watch?v=3OwKOI4yXLQ',
-          vids: [
 
-          ]
-        },
-        {
-          name: 'WcropoliX',
-          author: 'BlassCFB',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 44,
-          desc: 'n/a',
-          verificationVid: 'https://www.youtube.com/watch?v=pQ2PsY1BymE',
-          vids: [
-            {
-              user: 'EndLevel',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
-            }
-          ]
-        },
-        {
-          name: 'Angelic Blood',
-          author: 'ViRuZ',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 58,
-          desc: 'n/a',
-          verificationVid: 'https://www.youtube.com/watch?v=PozwbzdDBu8',
-          vids: [
-            {
-              user: 'Sunix',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=c4kzuqXWUrU'
-            },
-            {
-              user: 'SirHC',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=5ShSXtWgLvc'
-            },
-            {
-              user: 'SirGuillester',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=2NPxVpff35w',
-            },
-            {
-              user: 'Zynvire',
-              percent: 71,
-              link: 'www.youtube.com/watch?v=GttquMBW-SI'
-            }
-          ]
-        },
-        {
-          name: 'Fexty',
-          author: 'lSkyJax',
-          id: 'n/a',
-          hacked: false,
-          percentToQualify: 59,
-          desc: 'n/a',
-          verificationVid: 'https://www.youtube.com/watch?v=xwe1MbOjdpU&t=1s',
-          vids: [
-            {
-              user: 'Jacob Firestone',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=Zolzg4sxeFs'
-            },
-            {
-              user: 'TTHAdam',
-              percent: 100,
-              link: 'www.youtube.com/watch?v=rku73853Rco'
-            },
-            {
-              user: 'PlasmaShock',
-              percent: 100,
-              link: 'https://www.youtube.com/watch?v=G5CRITTn14Q'
-            }
-          ]
-        },
-        {
-          name: 'Factory Realm X',
-          author: 'Helpegasus',
-          hacked: false,
-          percentToQualify: 59,
-          desc: '',
-          verificationVid: 'https://www.youtube.com/watch?v=kTaz5Vu_WvY',
-          vids: [
+<head>
+  <title>Geometry Dash Unrated Demonlist</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700" rel="stylesheet">
+  <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
 
-          ]
-        },
-        {"name":"Paracosm Hell","author":"Temporum","percentToQualify":"69","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=KqSAIG93GwU","hacked":false,"vids":[]},
-        {"name":"Instant Execution","author":"Plexidit and more","percentToQualify":"62","desc":"n/a","verificationVid":"","hacked":true,"vids":[
-          {
-            user: 'Mactanow',
+<body>
+  <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    const list = [{
+        name: 'Death Corridor',
+        author: 'KaotikJumper',
+        id: 'n/a',
+        hacked: true,
+        percentToQualify: 46,
+        desc: 'n/a',
+        verificationVid: null,
+        vids: [{
+            user: 'Sunix',
             percent: 100,
-            link: 'www.youtube.com/watch?v=jPU0NXcc0CI'
+            link: 'www.youtube.com/watch?v=9799msdH394&t=144s'
           },
-        ]},{"name":"The Chaos Machine","author":"lShadel and xLiran [Agaloth]","percentToQualify":"76","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=Ew5Dugkgrn0","hacked":false,"vids":[{"user":"Beany","percent":"100","link":"https://www.youtube.com/watch?v=t8s85-RlaYI"},{"user":"Snowballer","percent":"100","link":"www.youtube.com/watch?v=Ij_Q2t1mU_w"}]},{"name":"Cosmorush 21","author":"Pennutoh [SebQuero11]","percentToQualify":"64","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=rSqPsxx3TGE","hacked":false,"vids":[
           {
+            user: 'NoctaFly',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=kUxKBqsPZr8'
+          },
+          {
+            user: 'EndLevel',
+            percent: 63,
+            link: 'www.youtube.com/watch?v=5ovINuFEH-U'
+          },
+          {
+            user: 'Beany',
+            percent: 50,
+            link: 'www.youtube.com/watch?v=f0u8KIxhTzI'
+          }
+        ]
+      },
+      {
+        name: 'Athanasia',
+        author: 'ViRuZ and GD Foxy',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 50,
+        desc: `This isn't actually the real description. This is just a fake one to test out the formatting. If you were to put in an actual description here, it would fit nicely.`,
+        verificationVid: 'https://www.youtube.com/watch?v=xNSfe7cqA0Q&t=68s',
+        vids: [{
+            user: 'Antares',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=b1_y56OlX4E'
+          },
+          {
+            user: 'GD Foxy',
+            percent: 51,
+            link: 'www.youtube.com/watch?v=GlMEHiujKl0'
+          }
+        ]
+      },
+      {
+        name: 'Silent Club',
+        author: 'Superex95',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 34,
+        desc: `n/a`,
+        verificationVid: 'https://www.youtube.com/watch?v=uSPCHI6LxdQ&t=21s',
+        vids: [{
+          user: 'SirGuillester',
+          percent: 100,
+          link: 'www.youtube.com/watch?v=Xp5mlIpa59E&t=12s'
+        }]
+      },
+      {
+        name: 'The Hell Origin',
+        author: 'Stormfly and more',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 42,
+        desc: `n/a`,
+        verificationVid: 'https://www.youtube.com/watch?v=2fZ_4jAGsQc',
+        vids: [{
+            user: 'Luqualizer',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=jX1rqngvBQI'
+          },
+          {
+            user: 'Herdys',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=1lWqpU3E6PM'
+          }
+        ]
+      },
+      {
+        name: 'Asmodeus',
+        author: 'Vexion and more [Sonic80]',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 43,
+        desc: 'n/a',
+        verificationVid: 'https://www.youtube.com/watch?v=3OwKOI4yXLQ',
+        vids: [
+
+        ]
+      },
+      {
+        name: 'WcropoliX',
+        author: 'BlassCFB',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 44,
+        desc: 'n/a',
+        verificationVid: 'https://www.youtube.com/watch?v=pQ2PsY1BymE',
+        vids: [{
+          user: 'EndLevel',
+          percent: 100,
+          link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
+        }]
+      },
+      {
+        name: 'Angelic Blood',
+        author: 'ViRuZ',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 58,
+        desc: 'n/a',
+        verificationVid: 'https://www.youtube.com/watch?v=PozwbzdDBu8',
+        vids: [{
+            user: 'Sunix',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=c4kzuqXWUrU'
+          },
+          {
+            user: 'SirHC',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=5ShSXtWgLvc'
+          },
+          {
+            user: 'SirGuillester',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=2NPxVpff35w',
+          },
+          {
+            user: 'Zynvire',
+            percent: 71,
+            link: 'www.youtube.com/watch?v=GttquMBW-SI'
+          }
+        ]
+      },
+      {
+        name: 'Fexty',
+        author: 'lSkyJax',
+        id: 'n/a',
+        hacked: false,
+        percentToQualify: 59,
+        desc: 'n/a',
+        verificationVid: 'https://www.youtube.com/watch?v=xwe1MbOjdpU&t=1s',
+        vids: [{
+            user: 'Jacob Firestone',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=Zolzg4sxeFs'
+          },
+          {
+            user: 'TTHAdam',
+            percent: 100,
+            link: 'www.youtube.com/watch?v=rku73853Rco'
+          },
+          {
+            user: 'PlasmaShock',
+            percent: 100,
+            link: 'https://www.youtube.com/watch?v=G5CRITTn14Q'
+          }
+        ]
+      },
+      {
+        name: 'Factory Realm X',
+        author: 'Helpegasus',
+        hacked: false,
+        percentToQualify: 59,
+        desc: '',
+        verificationVid: 'https://www.youtube.com/watch?v=kTaz5Vu_WvY',
+        vids: [
+
+        ]
+      },
+      {
+        "name": "Paracosm Hell",
+        "author": "Temporum",
+        "percentToQualify": "69",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=KqSAIG93GwU",
+        "hacked": false,
+        "vids": []
+      },
+      {
+        "name": "Instant Execution",
+        "author": "Plexidit and more",
+        "percentToQualify": "62",
+        "desc": "n/a",
+        "verificationVid": "",
+        "hacked": true,
+        "vids": [{
+          user: 'Mactanow',
+          percent: 100,
+          link: 'www.youtube.com/watch?v=jPU0NXcc0CI'
+        }, ]
+      }, {
+        "name": "The Chaos Machine",
+        "author": "lShadel and xLiran [Agaloth]",
+        "percentToQualify": "76",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=Ew5Dugkgrn0",
+        "hacked": false,
+        "vids": [{
+          "user": "Beany",
+          "percent": "100",
+          "link": "https://www.youtube.com/watch?v=t8s85-RlaYI"
+        }, {
+          "user": "Snowballer",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=Ij_Q2t1mU_w"
+        }]
+      }, {
+        "name": "Cosmorush 21",
+        "author": "Pennutoh [SebQuero11]",
+        "percentToQualify": "64",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=rSqPsxx3TGE",
+        "hacked": false,
+        "vids": [{
             user: 'Temporum',
             percent: 100,
             link: 'www.youtube.com/watch?v=Wjd66dpJM9A',
@@ -233,122 +261,282 @@
             percent: 64,
             link: 'www.youtube.com/watch?v=umu2AnkkY7U'
           }
-        ]},
-        {"name":"Red World","author":"SirGuillester","percentToQualify":"64","desc":"n/a","verificationVid":"","hacked":true,"vids":[{"user":"HequinoX","percent":"100","link":"www.youtube.com/watch?v=2RxxrX7dSx8&t=62s"},{"user":"Luqualizer","percent":"100","link":"www.youtube.com/watch?v=a96YKaUU5GI&t=48s"}]},{"name":"Deadly Corridor","author":"Metalface221","percentToQualify":"45","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=hioONgv6BuI","hacked":false,"vids":[
-          {
-            user: 'Juzeph',
-            percent: 64,
-            link: 'www.youtube.com/watch?v=ywPRbUwg9-w'
-          }
-        ]},{"name":"Future Demoness X","author":"Atomic","percentToQualify":"65","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=notd2ocIU2M","hacked":false,"vids":[{"user":"Temporum","percent":"100","link":"www.youtube.com/watch?v=0ltf7ejzAaA"}]},{"name":"A Darker Fate","author":"LogiC and Marwec","percentToQualify":"67","desc":"n/a","verificationVid":"https://youtu.be/QqzMg9mkM2A?t=4h28m12s","hacked":false,"vids":[{"user":"TheFrozenTideGD","percent":"100","link":"youtu.be/Gxhmg7lXbHU?t=2m47s"},{"user":"Roldan and Mauro","percent":"100","link":"www.youtube.com/watch?v=bXCB7NzbsTM"},{"user":"Skips Dasher","percent":"100","link":"www.youtube.com/watch?v=tB_TtaFUGMU"}]},{"name":"Silentfunk","author":"AirSwipe","percentToQualify":"72","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=DppmWzD3Xt8","hacked":false,"vids":[{"user":"Geometry Josh","percent":"100","link":"www.youtube.com/watch?v=4glKzYVIbLY"},{"user":"Sunix","percent":"100","link":"www.youtube.com/watch?v=sVYrUDohpgA"}]},{"name":"Red Coronation","author":"Ryan LC and more [SebQuero11]","percentToQualify":"60","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=BVk5VsKyTvg","hacked":false,"vids":[]},{"name":"The Last Straw","author":"Metalface221","percentToQualify":"42","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=H1vLDNMzH-Q","hacked":true,"vids":[{"user":"Luqualizer","percent":"100","link":"www.youtube.com/watch?v=PGSFHB9LSIU"}]},{"name":"Magnix","author":"ScpLanst/Supernight GM [SirGuillester]","percentToQualify":"66","desc":"n/a","verificationVid":"https://www.youtube.com/watch?v=t_qOT85NzGU","hacked":false,"vids":[{"user":"Geometry Josh","percent":"100","link":"www.youtube.com/watch?v=TN1HevrCSSM"},{"user":"Atomic","percent":"100","link":"www.youtube.com/watch?v=ySCY4O2TP20"},{"user":"EndLevel","percent":"100","link":"www.youtube.com/watch?v=JAPQEoxiuIk"},{"user":"Failure444","percent":"100","link":"www.youtube.com/watch?v=m9npfjz-xD0"},{"user":"SirHC","percent":"100","link":"www.youtube.com/watch?v=9rcaqULtKvg"},{"user":"ThisIsPow","percent":"100","link":"www.youtube.com/watch?v=QU7ssdNawy4"},{"user":"Breakey","percent":"100","link":"www.youtube.com/watch?v=gX10ZkBYIDY"},{"user":"Skibble","percent":"100","link":"www.youtube.com/watch?v=p6St3MBrwP4"}]},{"name":"Belic","author":"Ozpectro","percentToQualify":"55","desc":"n/a","verificationVid":"","hacked":true,"vids":[{"user":"Stormfly","percent":"100","link":"www.youtube.com/watch?v=8oOQsSB_YW0"},{"user":"Jacob Firestone","percent":"100","link":"www.youtube.com/watch?v=eSJ9FAuMaT0"}]}
-      ];
-    </script>
-    <header id="dl-header">
-      <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: same styles getting fixed">(v2.0.3)</em></div>
-      <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
-    </header>
-    <div id="list">
-    </div>
-    <div id="info">
-      <div id="inner-info">
-        <div id="levelname"></div>
-        <div id="levelauthor">by <em id="inside-level-author"></em></div>
+        ]
+      },
+      {
+        "name": "Red World",
+        "author": "SirGuillester",
+        "percentToQualify": "64",
+        "desc": "n/a",
+        "verificationVid": null,
+        "hacked": false,
+        "vids": [{
+          "user": "HequinoX",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=2RxxrX7dSx8&t=62s"
+        }, {
+          "user": "Luqualizer",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=a96YKaUU5GI&t=48s"
+        }]
+      }, {
+        "name": "Deadly Corridor",
+        "author": "Metalface221",
+        "percentToQualify": "45",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=hioONgv6BuI",
+        "hacked": false,
+        "vids": [{
+          user: 'Juzeph',
+          percent: 64,
+          link: 'www.youtube.com/watch?v=ywPRbUwg9-w'
+        }]
+      }, {
+        "name": "Future Demoness X",
+        "author": "Atomic",
+        "percentToQualify": "65",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=notd2ocIU2M",
+        "hacked": false,
+        "vids": [{
+          "user": "Temporum",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=0ltf7ejzAaA"
+        }]
+      }, {
+        "name": "A Darker Fate",
+        "author": "LogiC and Marwec",
+        "percentToQualify": "67",
+        "desc": "n/a",
+        "verificationVid": "https://youtu.be/QqzMg9mkM2A?t=4h28m12s",
+        "hacked": false,
+        "vids": [{
+          "user": "TheFrozenTideGD",
+          "percent": "100",
+          "link": "youtu.be/Gxhmg7lXbHU?t=2m47s"
+        }, {
+          "user": "Roldan and Mauro",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=bXCB7NzbsTM"
+        }, {
+          "user": "Skips Dasher",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
+        }]
+      }, {
+        "name": "Silentfunk",
+        "author": "AirSwipe",
+        "percentToQualify": "72",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=DppmWzD3Xt8",
+        "hacked": false,
+        "vids": [{
+          "user": "Geometry Josh",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=4glKzYVIbLY"
+        }, {
+          "user": "Sunix",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=sVYrUDohpgA"
+        }]
+      }, {
+        "name": "Red Coronation",
+        "author": "Ryan LC and more [SebQuero11]",
+        "percentToQualify": "60",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=BVk5VsKyTvg",
+        "hacked": false,
+        "vids": []
+      }, {
+        "name": "The Last Straw",
+        "author": "Metalface221",
+        "percentToQualify": "42",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=H1vLDNMzH-Q",
+        "hacked": true,
+        "vids": [{
+          "user": "Luqualizer",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
+        }]
+      }, {
+        "name": "Magnix",
+        "author": "ScpLanst/Supernight GM [SirGuillester]",
+        "percentToQualify": "66",
+        "desc": "n/a",
+        "verificationVid": "https://www.youtube.com/watch?v=t_qOT85NzGU",
+        "hacked": false,
+        "vids": [{
+          "user": "Geometry Josh",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=TN1HevrCSSM"
+        }, {
+          "user": "Atomic",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=ySCY4O2TP20"
+        }, {
+          "user": "EndLevel",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=JAPQEoxiuIk"
+        }, {
+          "user": "Failure444",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=m9npfjz-xD0"
+        }, {
+          "user": "SirHC",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=9rcaqULtKvg"
+        }, {
+          "user": "ThisIsPow",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=QU7ssdNawy4"
+        }, {
+          "user": "Breakey",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=gX10ZkBYIDY"
+        }, {
+          "user": "Skibble",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=p6St3MBrwP4"
+        }]
+      }, {
+        "name": "Belic",
+        "author": "Ozpectro",
+        "percentToQualify": "55",
+        "desc": "n/a",
+        "verificationVid": "",
+        "hacked": true,
+        "vids": [{
+          "user": "Stormfly",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=8oOQsSB_YW0"
+        }, {
+          "user": "Jacob Firestone",
+          "percent": "100",
+          "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
+        }]
+      }
+    ];
+  </script>
+  <header id="dl-header">
+    <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: added discord link, fixed a few things, made changes to styling, added hacked icon for hacked level">(v2.0.5)</em></div>
+    <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
+  </header>
+  <div id="list">
+  </div>
+  <div id="info">
+    <div id="inner-info">
+      <div id="levelname"></div>
+      <div id="levelauthor">by <em id="inside-level-author"></em></div>
+      <br>
+      <div id="leveldescription"></div>
+      <div id="levelvid"></div>
+      <hr>
+      <div id="records">
+        <div id="records-title">Records</div>
+        <div id="qualification"><strong id="levelqualify"></strong>% to qualify.</div>
         <br>
-        <div id="leveldescription"></div>
-        <div id="levelvid"></div>
-        <hr>
-        <div id="records">
-          <div id="records-title">Records</div>
-          <div id="qualification"><strong id="levelqualify"></strong>% to qualify.</div>
-          <br>
-          <div id="records-table">
-          </div>
+        <div id="records-table">
         </div>
       </div>
     </div>
-    <div id="additional-information">
-      <div id="inner-right-info">
-        The HTML for this page was written by <strong>Elektrix</strong> (CosignCosine). This list is curated by <strong>TheZakkAttack</strong>, based on the forum list <strong><a href="http://gdforum.freeforums.net/thread/49574/demon-unofficial-unrated-demons-record">here</a></strong>. Thanks to <strong>17chose17</strong> for helping to find a ton of bugs with the page. It's very appreciated! :)
-        <br><br>
-        Levels can be suggested for this list if they meet the requirements listed:
+  </div>
+  <div id="additional-information">
+    <div id="inner-right-info">
+      <div><strong>Join the <a href="https://discord.gg/">official discord server</a> for information, submissions, and bug reporting!</strong></div>
+      <br>
+      <div>
+        The HTML for this page was written by <strong>Elektrix</strong> (CosignCosine). This list is curated by <strong>TheZakkAttack</strong>, based on the forum list <strong><a href="http://gdforum.freeforums.net/thread/49574/demon-unofficial-unrated-demons-record">here</a></strong>.
+        Thanks to <strong>17chose17</strong> for helping to find a ton of bugs with the page. It's very appreciated! :)
+        <br><br> Levels can be suggested for this list if they meet the requirements listed:
         <ul>
-          <li>Has been verified legit and/or has been around a long time.
-          <li>Has more than 500 likes and/or TheZakkAttack knows the creator (as in he has actually played or seen footage of one of his/her levels).
-          <li>The level is harder than Ultraviolet.  (Formerly Ultrasonic)
-          <li>The level is not a previous update to a rated level. (For example, Old Cataclysm is not allowed on this list, but Future Demoness X is allowed since it has some original decoration and is harder than the rated version).
-          <li>The level isn't a different version of a level already on the list.
+          <li>Has been verified legitimately and/or has been around a long time.
+            <li>Has more than 500 likes and/or TheZakkAttack knows the creator (as in he has actually played or seen footage of one of his/her levels).
+              <li>The level is harder than Ultraviolet. (Formerly Ultrasonic)
+                <li>The level is not a previous update to a rated level. (For example, Old Cataclysm is not allowed on this list, but Future Demoness X is allowed since it has some original decoration and is harder than the rated version).
+                  <li>The level isn't a different version of a level already on the list.
         </ul>
         If you would like to suggest a level, please go to the forum thread linked above.
       </div>
     </div>
-    <script name="postload" type="text/javascript">
-      var l = getParameterByName('q', window.location.href)*1-1;
-      console.log(l)
-      var list_node = $("#list");
-      var record_node = $("#records-table")
-      for(var i = 0; i < list.length; i++){
-        var entry = list[i];
-        $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+  </div>
+  <script name="postload" type="text/javascript">
+    var l = getParameterByName('q', window.location.href) * 1 - 1;
+    console.log(l)
+    var list_node = $("#list");
+    var record_node = $("#records-table")
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+    }
+    // handlers
+    var load = function(node) {
+      var num;
+      if (typeof node == 'number') {
+        num = node;
+      } else {
+        num = $(node).attr('value')
       }
-      // handlers
-      var load = function(node){
-        var num;
-        if(typeof node == 'number'){
-          num = node;
-        }else{
-          num = $(node).attr('value')
+      var entry = list[num];
+      if (!entry) {
+        load(0)
+      } else {
+        if (!entry.hacked && entry.verificationVid !== null) {
+          entry.verificationVid = entry.verificationVid
+            .replace(/www\.youtube.com\/watch\?v=/gi, '')
+            .replace(/&t=\d+s/gi, '')
+            .replace(/https:\/\//gi, '')
         }
-        var entry = list[num];
-        if(!entry){
-          load(0)
-        }else{
-          if(!entry.hacked){
-            entry.verificationVid = entry.verificationVid
-              .replace(/www\.youtube.com\/watch\?v=/gi, '')
-              .replace(/&t=\d+s/gi, '')
-              .replace(/https:\/\//gi, '')
-          }
-          console.log(entry.verificationVid)
-          $("#levelname").text(entry.name);
-          $("#inside-level-author").text(entry.author);
-          $("#leveldescription").text(entry.desc);
-          $("#levelvid").empty();
-          if(!entry.hacked){
-            $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
-          }
-          $("#levelqualify").text(entry.percentToQualify);
+        console.log(entry.verificationVid)
+        $("#levelname").html(entry.name + (entry.hacked ? " <span class='hacked'>HACKED</span>" : ""));
+        $("#inside-level-author").text(entry.author);
+        $("#leveldescription").text(entry.desc);
+        $("#levelvid").empty();
+        if (!entry.hacked && entry.verificationVid !== null) {
+          $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+        }
+        $("#levelqualify").text(entry.percentToQualify);
 
-          $(record_node).empty();
-          for(var j = 0; j < entry.vids.length; j++){
-            var record = entry.vids[j];
-            if(!record.link.includes('https://')){
-              record.link = "https://" + record.link;
-            }
-            $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
+        $(record_node).empty();
+        for (var j = 0; j < entry.vids.length; j++) {
+          var record = entry.vids[j];
+          if (!record.link.includes('https://')) {
+            record.link = "https://" + record.link;
           }
+          $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
         }
-      };
-      $('.entry').click(function(){
-        $('.entry').removeClass('selected')
-        $(this).addClass('selected');
-        load(this);
-      })
-      // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
-      function getParameterByName(name, url) {
-        if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
       }
-      load(l*1)
-    </script>
-    <noscript>
+    };
+    $('.entry').click(function() {
+      $('.entry').removeClass('selected')
+      $(this).addClass('selected');
+      load(this);
+    })
+    // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    load(l * 1)
+  </script>
+  <script>
+    var height = window.screen.availHeight;
+    let remainingHeight = (height - 197) + "px";
+    console.log(remainingHeight)
+    $("#list").css('height', remainingHeight)
+    $("#additional-information").css('height', remainingHeight)
+    $("#info").css('height', remainingHeight)
+  </script>
+  <noscript>
       <div id="block">
         You need JavaScript to see this website lol
       </div>
     </noscript>
-  </body>
+</body>
+
 </html>
