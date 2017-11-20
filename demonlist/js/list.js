@@ -7,16 +7,7 @@ const list = [
     percentToQualify: 46,
     desc: 'n/a',
     verificationVid: null,
-    vids: [{
-        user: 'Sunix',
-        percent: 100,
-        link: 'www.youtube.com/watch?v=9799msdH394&t=144s'
-      },
-      {
-        user: 'NoctaFly',
-        percent: 100,
-        link: 'www.youtube.com/watch?v=kUxKBqsPZr8'
-      },
+    vids: [
       {
         user: 'EndLevel',
         percent: 63,
@@ -190,7 +181,7 @@ const list = [
     "percentToQualify": "62",
     "desc": "n/a",
     "verificationVid": "",
-    "hacked": true,
+    "hacked": false,
     "vids": [{
       user: 'Mactanow',
       percent: 100,
@@ -317,6 +308,7 @@ const list = [
       "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
     }]
   },
+  /*
   {
     "name": "Silentfunk",
     "author": "AirSwipe",
@@ -334,6 +326,7 @@ const list = [
       "link": "www.youtube.com/watch?v=sVYrUDohpgA"
     }]
   },
+  */
   {
     "name": "Red Coronation",
     "author": "Ryan LC and more [SebQuero11]",
@@ -342,7 +335,7 @@ const list = [
     "verificationVid": "https://www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
     "vids": []
-  }, 
+  },
   {
     "name": "The Last Straw",
     "author": "Metalface221",
