@@ -127,10 +127,15 @@
 
     // random color
     var c = Math.floor(Math.random()*256);
-    if(c > 25 && c < 170){
-      $("*").css('color', 'black')
-      $("hr").css('border', '1px solid black')
-    }
+    setInterval(function(){
+      if(c > 25 && c < 170){
+        $("*").css('color', 'black !important')
+        $("hr").css('border', '1px solid black !important')
+      }else{
+        $("*").css('color', 'white !important')
+        $("hr").css('border', '1px solid white !important')
+      }
+    }, 1000)
     $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 50%);')
   </script>
   <noscript>
