@@ -268,11 +268,28 @@ const list = [
     "desc": "n/a",
     "verificationVid": "https://www.youtube.com/watch?v=hioONgv6BuI",
     "hacked": false,
-    "vids": [{
-      user: 'Juzeph',
-      percent: 64,
-      link: 'www.youtube.com/watch?v=ywPRbUwg9-w'
-    }]
+    "vids": [
+        {
+          user: 'SirGuillester',
+          percent: 100,
+          link: 'https://www.youtube.com/watch?v=Fkamkm5pBCo'
+        },
+        {
+          user: 'ToshDeluxe',
+          percent: 100,
+          link: 'https://www.youtube.com/watch?v=YNs4gadWeuk',
+        },
+        {
+          user: 'Juzeph',
+          percent: 100,
+          link: 'www.youtube.com/watch?v=ywPRbUwg9-w'
+        },
+        {
+          user: 'Noice',
+          percent: 74,
+          link: 'https://www.youtube.com/watch?v=tneX0tn1wGw'
+        }
+    ]
   },
   {
     "name": "Future Demoness X",
