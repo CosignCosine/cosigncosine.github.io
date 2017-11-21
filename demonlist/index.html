@@ -13,7 +13,7 @@
   <script type='text/javascript' src="js/list.js"></script>
   <cover-all id="hi">
     <header id="dl-header">
-      <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: check discord for full changelog">(v2.2.2)</em></div>
+      <div id="sitename"><strong>Un</strong>rated <strong>Demon</strong>list <em title="Changelog: check discord for full changelog">(v2.3.0)</em></div>
       <div id="pc-link"><a href="http://pointercrate.com/demonlist/1/"><strong>Pointer</strong>crate <strong>Demon</strong>list Link</a></div>
     </header>
     <div id="list">
@@ -99,6 +99,7 @@
           $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
         }
       }
+      cueCSS();
     };
     $('.entry').click(function() {
       $('.entry').removeClass('selected')
@@ -127,10 +128,16 @@
 
     // random color
     var c = Math.floor(Math.random()*256);
-    if(c > 25 && c < 170){
-      $("*").css('color', 'black !important')
-      $("hr").css('border', '1px solid black !important')
+    function cueCSS(){
+      if(c > 25 && c < 170){
+        $("*").css('color', 'black')
+        $("hr").css('border', '1px solid black')
+      }else{
+        $("*").css('color', 'white')
+        $("hr").css('border', '1px solid white')
+      }
     }
+    cueCSS();
     $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 50%);')
   </script>
   <noscript>
