@@ -18,7 +18,8 @@ const list = [
         percent: 50,
         link: 'www.youtube.com/watch?v=f0u8KIxhTzI'
       }
-    ]
+    ],
+    key: 2
   },
   {
     name: 'Athanasia',
@@ -38,7 +39,8 @@ const list = [
         percent: 51,
         link: 'www.youtube.com/watch?v=GlMEHiujKl0'
       }
-    ]
+    ],
+    key: 4
   },
   {
     name: 'Silent Club',
@@ -52,7 +54,8 @@ const list = [
       user: 'SirGuillester',
       percent: 100,
       link: 'www.youtube.com/watch?v=Xp5mlIpa59E&t=12s'
-    }]
+    }],
+    key: 1
   },
   {
     name: 'The Hell Origin',
@@ -72,7 +75,8 @@ const list = [
         percent: 100,
         link: 'www.youtube.com/watch?v=1lWqpU3E6PM'
       }
-    ]
+    ],
+    key: 3
   },
   {
     name: 'Asmodeus',
@@ -84,7 +88,8 @@ const list = [
     verificationVid: 'https://www.youtube.com/watch?v=3OwKOI4yXLQ',
     vids: [
 
-    ]
+    ],
+    key: 6
   },
   {
     name: 'WcropoliX',
@@ -98,7 +103,8 @@ const list = [
       user: 'EndLevel',
       percent: 100,
       link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
-    }]
+    }],
+    key: 5
   },
   {
     name: 'Angelic Blood',
@@ -128,7 +134,8 @@ const list = [
         percent: 71,
         link: 'www.youtube.com/watch?v=GttquMBW-SI'
       }
-    ]
+    ],
+    key: 15
   },
   {
     name: 'Fexty',
@@ -153,7 +160,8 @@ const list = [
         percent: 100,
         link: 'https://www.youtube.com/watch?v=G5CRITTn14Q'
       }
-    ]
+    ],
+    key: 7
   },
   {
     name: 'Factory Realm X',
@@ -164,7 +172,8 @@ const list = [
     verificationVid: 'https://www.youtube.com/watch?v=kTaz5Vu_WvY',
     vids: [
 
-    ]
+    ],
+    key: 12
   },
   {
     "name": "Paracosm Hell",
@@ -173,7 +182,8 @@ const list = [
     "desc": "n/a",
     "verificationVid": "https://www.youtube.com/watch?v=KqSAIG93GwU",
     "hacked": false,
-    "vids": []
+    "vids": [],
+    key: 9
   },
   {
     "name": "Instant Execution",
@@ -186,7 +196,8 @@ const list = [
       user: 'Mactanow',
       percent: 100,
       link: 'www.youtube.com/watch?v=jPU0NXcc0CI'
-    }, ]
+    }, ],
+    key: 8
   },
   {
     "name": "The Chaos Machine",
@@ -203,7 +214,8 @@ const list = [
       "user": "Snowballer",
       "percent": "100",
       "link": "www.youtube.com/watch?v=Ij_Q2t1mU_w"
-    }]
+    }],
+    key: 16
   },
   {
     "name": "Cosmorush 21",
@@ -242,7 +254,8 @@ const list = [
         percent: 64,
         link: 'www.youtube.com/watch?v=umu2AnkkY7U'
       }
-    ]
+    ],
+    key: 11
   },
   {
     "name": "Red World",
@@ -259,7 +272,8 @@ const list = [
       "user": "Luqualizer",
       "percent": "100",
       "link": "www.youtube.com/watch?v=a96YKaUU5GI&t=48s"
-    }]
+    }],
+    key: 13
   },
   {
     "name": "Deadly Corridor",
@@ -289,7 +303,8 @@ const list = [
           percent: 74,
           link: 'https://www.youtube.com/watch?v=tneX0tn1wGw'
         }
-    ]
+    ],
+    key: 10
   },
   {
     "name": "Future Demoness X",
@@ -302,7 +317,8 @@ const list = [
       "user": "Temporum",
       "percent": "100",
       "link": "www.youtube.com/watch?v=0ltf7ejzAaA"
-    }]
+    }],
+    key: 17
   },
   {
     "name": "A Darker Fate",
@@ -323,7 +339,8 @@ const list = [
       "user": "Skips Dasher",
       "percent": "100",
       "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
-    }]
+    }],
+    key: 14
   },
   /*
   {
@@ -351,7 +368,8 @@ const list = [
     "desc": "n/a",
     "verificationVid": "https://www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
-    "vids": []
+    "vids": [],
+    key: 20
   },
   {
     "name": "The Last Straw",
@@ -364,7 +382,8 @@ const list = [
       "user": "Luqualizer",
       "percent": "100",
       "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
-    }]
+    }],
+    key: 18
   },
   {
     "name": "Magnix",
@@ -405,7 +424,8 @@ const list = [
       "user": "Skibble",
       "percent": "100",
       "link": "www.youtube.com/watch?v=p6St3MBrwP4"
-    }]
+    }],
+    key: 21
   },
   {
     "name": "Belic",
@@ -422,6 +442,7 @@ const list = [
       "user": "Jacob Firestone",
       "percent": "100",
       "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
-    }]
+    }],
+    key: 19
   }
 ];
