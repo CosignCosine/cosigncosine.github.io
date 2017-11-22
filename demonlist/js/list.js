@@ -359,7 +359,7 @@ const list = [
     "percentToQualify": "42",
     "desc": "n/a",
     "verificationVid": "https://www.youtube.com/watch?v=H1vLDNMzH-Q",
-    "hacked": true,
+    "hacked": false,
     "vids": [{
       "user": "Luqualizer",
       "percent": "100",
