@@ -480,7 +480,7 @@ const list = [
     author: "Azuler4 and Pennutoh [SrGuillester]",
     percentToQualify: 54,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=tH5avKOW2w4",
     hacked: false,
     vids: [],
     key: 9
@@ -490,7 +490,7 @@ const list = [
     author: "Andromeda and Pennutoh [ThePrimeEvil]",
     percentToQualify: 56,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=DaWHQhsgX9M",
     hacked: false,
     vids: [],
     key: 14
@@ -510,7 +510,7 @@ const list = [
     author: "ScpLanst [Sunix]",
     percentToQualify: 60,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=J3eL9aaUt9o",
     hacked: false,
     vids: [],
     key: 27
@@ -530,7 +530,7 @@ const list = [
     author: "Koreaqwer and more",
     percentToQualify: 78,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
     vids: [],
     key: 29
