@@ -450,7 +450,7 @@ const list = [
     author: "Koreaqwer and ThorMode [Sonic80]",
     percentToQualify: 39,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=NnhHBJ9bQtg",
     hacked: false,
     vids: [],
     key: 2
