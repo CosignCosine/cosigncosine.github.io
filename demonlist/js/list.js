@@ -470,7 +470,7 @@ const list = [
     author: "swithi [Freaklin]",
     percentToQualify: 48,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=j-q_Fd1Hrso",
     hacked: false,
     vids: [],
     key: 8
@@ -520,7 +520,7 @@ const list = [
     author: "Jekko [GeometryJosh]",
     percentToQualify: 56,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://www.youtube.com/watch?v=93pJFVC1RSI",
     hacked: false,
     vids: [],
     key: 28
