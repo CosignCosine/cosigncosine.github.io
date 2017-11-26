@@ -40,7 +40,7 @@ const list = [
         link: 'www.youtube.com/watch?v=GlMEHiujKl0'
       }
     ],
-    key: 4
+    key: 5
   },
   {
     name: 'Silent Club',
@@ -55,7 +55,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=Xp5mlIpa59E&t=12s'
     }],
-    key: 1
+    key: 6
   },
   {
     name: 'The Hell Origin',
@@ -76,7 +76,7 @@ const list = [
         link: 'www.youtube.com/watch?v=1lWqpU3E6PM'
       }
     ],
-    key: 3
+    key: 4
   },
   {
     name: 'Asmodeus',
@@ -89,7 +89,7 @@ const list = [
     vids: [
 
     ],
-    key: 6
+    key: 10
   },
   {
     name: 'WcropoliX',
@@ -104,7 +104,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
     }],
-    key: 5
+    key: 3
   },
   {
     name: 'Angelic Blood',
@@ -135,7 +135,7 @@ const list = [
         link: 'www.youtube.com/watch?v=GttquMBW-SI'
       }
     ],
-    key: 15
+    key: 21
   },
   {
     name: 'Fexty',
@@ -161,7 +161,7 @@ const list = [
         link: 'https://www.youtube.com/watch?v=G5CRITTn14Q'
       }
     ],
-    key: 7
+    key: 11
   },
   {
     name: 'Factory Realm X',
@@ -173,7 +173,7 @@ const list = [
     vids: [
 
     ],
-    key: 12
+    key: 18
   },
   {
     "name": "Paracosm Hell",
@@ -183,7 +183,7 @@ const list = [
     "verificationVid": "https://www.youtube.com/watch?v=KqSAIG93GwU",
     "hacked": false,
     "vids": [],
-    key: 9
+    key: 13
   },
   {
     "name": "Instant Execution",
@@ -197,7 +197,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=jPU0NXcc0CI'
     }, ],
-    key: 8
+    key: 12
   },
   {
     "name": "The Chaos Machine",
@@ -215,7 +215,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=Ij_Q2t1mU_w"
     }],
-    key: 16
+    key: 22
   },
   {
     "name": "Cosmorush 21",
@@ -255,7 +255,7 @@ const list = [
         link: 'www.youtube.com/watch?v=umu2AnkkY7U'
       }
     ],
-    key: 11
+    key: 17
   },
   {
     "name": "Red World",
@@ -273,7 +273,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=a96YKaUU5GI&t=48s"
     }],
-    key: 13
+    key: 19
   },
   {
     "name": "Deadly Corridor",
@@ -304,7 +304,7 @@ const list = [
           link: 'https://www.youtube.com/watch?v=tneX0tn1wGw'
         }
     ],
-    key: 10
+    key: 20
   },
   {
     "name": "Future Demoness X",
@@ -318,7 +318,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=0ltf7ejzAaA"
     }],
-    key: 17
+    key: 23
   },
   {
     "name": "A Darker Fate",
@@ -340,7 +340,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
     }],
-    key: 14
+    key: 16
   },
   /*
   {
@@ -369,7 +369,7 @@ const list = [
     "verificationVid": "https://www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
     "vids": [],
-    key: 20
+    key: 26
   },
   {
     "name": "The Last Straw",
@@ -383,7 +383,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
     }],
-    key: 18
+    key: 24
   },
   {
     "name": "Magnix",
@@ -425,7 +425,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=p6St3MBrwP4"
     }],
-    key: 21
+    key: 30
   },
   {
     "name": "Belic",
@@ -443,6 +443,96 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
     }],
-    key: 19
+    key: 25
+  },
+  {
+    name: "Luminous Planet",
+    author: "Koreaqwer and ThorMode [Sonic80]",
+    percentToQualify: 39,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 2
+  },
+  {
+    name: "River Twygz",
+    author: "AirSwipe and more [Sezuh]",
+    percentToQualify: 62,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 7
+  },
+  {
+    name: "Mujiage",
+    author: "swithi [Freaklin]",
+    percentToQualify: 48,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 8
+  },
+  {
+    name: "Game Over",
+    author: "Azuler4 and Pennutoh [SrGuillester]",
+    percentToQualify: 54,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 9
+  },
+  {
+    name: "Poltergeist Reborn",
+    author: "Andromeda and Pennutoh [ThePrimeEvil]",
+    percentToQualify: 56,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 14
+  },
+  {
+    name: "Killbot",
+    author: "Lithifusion [BoldStep]",
+    percentToQualify: 37,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 15
+  },
+  {
+    name: "Leziclub",
+    author: "ScpLanst [Sunix]",
+    percentToQualify: 60,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 27
+  },
+  {
+    name: "Chaotic Machine",
+    author: "Jekko [GeometryJosh]",
+    percentToQualify: 56,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 28
+  },
+  {
+    name: "The Elysium",
+    author: "Koreaqwer and more",
+    percentToQualify: 78,
+    desc: "",
+    verificationVid: "",
+    hacked: false,
+    vids: [],
+    key: 29
   }
 ];
