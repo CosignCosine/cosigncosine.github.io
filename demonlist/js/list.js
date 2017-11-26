@@ -460,7 +460,7 @@ const list = [
     author: "AirSwipe and more [Sezuh]",
     percentToQualify: 62,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://youtube.com/watch?v=umIxQyVx73s",
     hacked: false,
     vids: [],
     key: 7
@@ -500,7 +500,7 @@ const list = [
     author: "Lithifusion [BoldStep]",
     percentToQualify: 37,
     desc: "",
-    verificationVid: "",
+    verificationVid: "https://youtube.com/watch?v=UQvPvOGYdpw",
     hacked: false,
     vids: [],
     key: 15
