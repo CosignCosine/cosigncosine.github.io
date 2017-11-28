@@ -215,7 +215,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=Ij_Q2t1mU_w"
     }],
-    key: 22
+    key: 23
   },
   {
     "name": "Cosmorush 21",
@@ -318,7 +318,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=0ltf7ejzAaA"
     }],
-    key: 23
+    key: 24
   },
   {
     "name": "A Darker Fate",
@@ -369,7 +369,7 @@ const list = [
     "verificationVid": "www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
     "vids": [],
-    key: 26
+    key: 27
   },
   {
     "name": "The Last Straw",
@@ -383,7 +383,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
     }],
-    key: 24
+    key: 25
   },
   {
     "name": "Magnix",
@@ -443,7 +443,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
     }],
-    key: 25
+    key: 26
   },
   {
     name: "Luminous Planet",
@@ -513,7 +513,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=J3eL9aaUt9o",
     hacked: false,
     vids: [],
-    key: 27
+    key: 28
   },
   {
     name: "Chaotic Machine",
@@ -523,7 +523,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=93pJFVC1RSI",
     hacked: false,
     vids: [],
-    key: 28
+    key: 29
   },
   {
     name: "The Elysium",
@@ -533,6 +533,6 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
     vids: [],
-    key: 29
+    key: 22
   }
 ];
