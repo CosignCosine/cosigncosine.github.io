@@ -101,7 +101,7 @@
       if (!entry) {
         load(0)
       } else {
-        if (!entry.hacked && entry.verificationVid !== null) {
+        if (!entry.hacked && (entry.verificationVid !== null && entry.verificationVid !== "")) {
           entry.verificationVid = entry.verificationVid
             .replace(/www\.youtube.com\/watch\?v=/gi, '')
             .replace(/&t=\d+s/gi, '')
@@ -111,7 +111,7 @@
         $("#inside-level-author").text(entry.author);
         $("#leveldescription").text(entry.desc);
         $("#levelvid").empty();
-        if (!entry.hacked && entry.verificationVid !== null) {
+        if (!entry.hacked && (entry.verificationVid !== null && entry.verificationVid !== "")) {
           $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
         }
         $("#levelqualify").text(entry.percentToQualify);
