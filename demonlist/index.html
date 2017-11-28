@@ -97,6 +97,7 @@
         num = $(node).attr('value')
       }
       var entry = list[num];
+      if(entry.verificationVid === '') entry.verificationVid = null;
       if (!entry) {
         load(0)
       } else {
