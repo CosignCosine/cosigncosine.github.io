@@ -28,7 +28,7 @@ const list = [
     hacked: false,
     percentToQualify: 50,
     desc: `This isn't actually the real description. This is just a fake one to test out the formatting. If you were to put in an actual description here, it would fit nicely.`,
-    verificationVid: 'https://www.youtube.com/watch?v=xNSfe7cqA0Q&t=68s',
+    verificationVid: 'www.youtube.com/watch?v=xNSfe7cqA0Q&t=68s',
     vids: [{
         user: 'Antares',
         percent: 100,
@@ -49,7 +49,7 @@ const list = [
     hacked: false,
     percentToQualify: 34,
     desc: `n/a`,
-    verificationVid: 'https://www.youtube.com/watch?v=uSPCHI6LxdQ&t=21s',
+    verificationVid: 'www.youtube.com/watch?v=uSPCHI6LxdQ&t=21s',
     vids: [{
       user: 'SirGuillester',
       percent: 100,
@@ -64,7 +64,7 @@ const list = [
     hacked: false,
     percentToQualify: 42,
     desc: `n/a`,
-    verificationVid: 'https://www.youtube.com/watch?v=2fZ_4jAGsQc',
+    verificationVid: 'www.youtube.com/watch?v=2fZ_4jAGsQc',
     vids: [{
         user: 'Luqualizer',
         percent: 100,
@@ -85,7 +85,7 @@ const list = [
     hacked: false,
     percentToQualify: 43,
     desc: 'n/a',
-    verificationVid: 'https://www.youtube.com/watch?v=3OwKOI4yXLQ',
+    verificationVid: 'www.youtube.com/watch?v=3OwKOI4yXLQ',
     vids: [
 
     ],
@@ -98,7 +98,7 @@ const list = [
     hacked: false,
     percentToQualify: 44,
     desc: 'n/a',
-    verificationVid: 'https://www.youtube.com/watch?v=pQ2PsY1BymE',
+    verificationVid: 'www.youtube.com/watch?v=pQ2PsY1BymE',
     vids: [{
       user: 'EndLevel',
       percent: 100,
@@ -113,7 +113,7 @@ const list = [
     hacked: false,
     percentToQualify: 58,
     desc: 'n/a',
-    verificationVid: 'https://www.youtube.com/watch?v=PozwbzdDBu8',
+    verificationVid: 'www.youtube.com/watch?v=PozwbzdDBu8',
     vids: [{
         user: 'Sunix',
         percent: 100,
@@ -144,7 +144,7 @@ const list = [
     hacked: false,
     percentToQualify: 59,
     desc: 'n/a',
-    verificationVid: 'https://www.youtube.com/watch?v=xwe1MbOjdpU&t=1s',
+    verificationVid: 'www.youtube.com/watch?v=xwe1MbOjdpU&t=1s',
     vids: [{
         user: 'Jacob Firestone',
         percent: 100,
@@ -158,7 +158,7 @@ const list = [
       {
         user: 'PlasmaShock',
         percent: 100,
-        link: 'https://www.youtube.com/watch?v=G5CRITTn14Q'
+        link: 'www.youtube.com/watch?v=G5CRITTn14Q'
       }
     ],
     key: 11
@@ -169,7 +169,7 @@ const list = [
     hacked: false,
     percentToQualify: 59,
     desc: '',
-    verificationVid: 'https://www.youtube.com/watch?v=kTaz5Vu_WvY',
+    verificationVid: 'www.youtube.com/watch?v=kTaz5Vu_WvY',
     vids: [
 
     ],
@@ -180,7 +180,7 @@ const list = [
     "author": "Temporum",
     "percentToQualify": "69",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=KqSAIG93GwU",
+    "verificationVid": "www.youtube.com/watch?v=KqSAIG93GwU",
     "hacked": false,
     "vids": [],
     key: 13
@@ -204,12 +204,12 @@ const list = [
     "author": "lShadel and xLiran [Agaloth]",
     "percentToQualify": "76",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=Ew5Dugkgrn0",
+    "verificationVid": "www.youtube.com/watch?v=Ew5Dugkgrn0",
     "hacked": false,
     "vids": [{
       "user": "Beany",
       "percent": "100",
-      "link": "https://www.youtube.com/watch?v=t8s85-RlaYI"
+      "link": "www.youtube.com/watch?v=t8s85-RlaYI"
     }, {
       "user": "Snowballer",
       "percent": "100",
@@ -222,7 +222,7 @@ const list = [
     "author": "Pennutoh [SebQuero11]",
     "percentToQualify": "64",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=rSqPsxx3TGE",
+    "verificationVid": "www.youtube.com/watch?v=rSqPsxx3TGE",
     "hacked": false,
     "vids": [{
         user: 'Temporum',
@@ -280,18 +280,18 @@ const list = [
     "author": "Metalface221",
     "percentToQualify": "45",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=hioONgv6BuI",
+    "verificationVid": "www.youtube.com/watch?v=hioONgv6BuI",
     "hacked": false,
     "vids": [
         {
           user: 'SirGuillester',
           percent: 100,
-          link: 'https://www.youtube.com/watch?v=Fkamkm5pBCo'
+          link: 'www.youtube.com/watch?v=Fkamkm5pBCo'
         },
         {
           user: 'ToshDeluxe',
           percent: 100,
-          link: 'https://www.youtube.com/watch?v=YNs4gadWeuk',
+          link: 'www.youtube.com/watch?v=YNs4gadWeuk',
         },
         {
           user: 'Juzeph',
@@ -301,7 +301,7 @@ const list = [
         {
           user: 'Noice',
           percent: 74,
-          link: 'https://www.youtube.com/watch?v=tneX0tn1wGw'
+          link: 'www.youtube.com/watch?v=tneX0tn1wGw'
         }
     ],
     key: 20
@@ -311,7 +311,7 @@ const list = [
     "author": "Atomic",
     "percentToQualify": "65",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=notd2ocIU2M",
+    "verificationVid": "www.youtube.com/watch?v=notd2ocIU2M",
     "hacked": false,
     "vids": [{
       "user": "Temporum",
@@ -325,7 +325,7 @@ const list = [
     "author": "LogiC and Marwec",
     "percentToQualify": "67",
     "desc": "n/a",
-    "verificationVid": "https://youtu.be/QqzMg9mkM2A?t=4h28m12s",
+    "verificationVid": "youtu.be/QqzMg9mkM2A?t=4h28m12s",
     "hacked": false,
     "vids": [{
       "user": "TheFrozenTideGD",
@@ -348,7 +348,7 @@ const list = [
     "author": "AirSwipe",
     "percentToQualify": "72",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=DppmWzD3Xt8",
+    "verificationVid": "www.youtube.com/watch?v=DppmWzD3Xt8",
     "hacked": false,
     "vids": [{
       "user": "Geometry Josh",
@@ -366,7 +366,7 @@ const list = [
     "author": "Ryan LC and more [SebQuero11]",
     "percentToQualify": "60",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=BVk5VsKyTvg",
+    "verificationVid": "www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
     "vids": [],
     key: 26
@@ -376,7 +376,7 @@ const list = [
     "author": "Metalface221",
     "percentToQualify": "42",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=H1vLDNMzH-Q",
+    "verificationVid": "www.youtube.com/watch?v=H1vLDNMzH-Q",
     "hacked": false,
     "vids": [{
       "user": "Luqualizer",
@@ -390,7 +390,7 @@ const list = [
     "author": "ScpLanst/Supernight GM [SirGuillester]",
     "percentToQualify": "66",
     "desc": "n/a",
-    "verificationVid": "https://www.youtube.com/watch?v=t_qOT85NzGU",
+    "verificationVid": "www.youtube.com/watch?v=t_qOT85NzGU",
     "hacked": false,
     "vids": [{
       "user": "Geometry Josh",
@@ -450,7 +450,7 @@ const list = [
     author: "Koreaqwer and ThorMode [Sonic80]",
     percentToQualify: 39,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=NnhHBJ9bQtg",
+    verificationVid: "www.youtube.com/watch?v=NnhHBJ9bQtg",
     hacked: false,
     vids: [],
     key: 2
@@ -460,7 +460,7 @@ const list = [
     author: "AirSwipe and more [Sezuh]",
     percentToQualify: 62,
     desc: "",
-    verificationVid: "https://youtube.com/watch?v=umIxQyVx73s",
+    verificationVid: "youtube.com/watch?v=umIxQyVx73s",
     hacked: false,
     vids: [],
     key: 7
@@ -470,7 +470,7 @@ const list = [
     author: "swithi [Freaklin]",
     percentToQualify: 48,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=j-q_Fd1Hrso",
+    verificationVid: "www.youtube.com/watch?v=j-q_Fd1Hrso",
     hacked: false,
     vids: [],
     key: 8
@@ -480,7 +480,7 @@ const list = [
     author: "Azuler4 and Pennutoh [SrGuillester]",
     percentToQualify: 54,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=tH5avKOW2w4",
+    verificationVid: "www.youtube.com/watch?v=tH5avKOW2w4",
     hacked: false,
     vids: [],
     key: 9
@@ -490,7 +490,7 @@ const list = [
     author: "Andromeda and Pennutoh [ThePrimeEvil]",
     percentToQualify: 56,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=DaWHQhsgX9M",
+    verificationVid: "www.youtube.com/watch?v=DaWHQhsgX9M",
     hacked: false,
     vids: [],
     key: 14
@@ -500,7 +500,7 @@ const list = [
     author: "Lithifusion [BoldStep]",
     percentToQualify: 37,
     desc: "",
-    verificationVid: "https://youtube.com/watch?v=UQvPvOGYdpw",
+    verificationVid: "youtube.com/watch?v=UQvPvOGYdpw",
     hacked: false,
     vids: [],
     key: 15
@@ -510,7 +510,7 @@ const list = [
     author: "ScpLanst [Sunix]",
     percentToQualify: 60,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=J3eL9aaUt9o",
+    verificationVid: "www.youtube.com/watch?v=J3eL9aaUt9o",
     hacked: false,
     vids: [],
     key: 27
@@ -520,7 +520,7 @@ const list = [
     author: "Jekko [GeometryJosh]",
     percentToQualify: 56,
     desc: "",
-    verificationVid: "https://www.youtube.com/watch?v=93pJFVC1RSI",
+    verificationVid: "www.youtube.com/watch?v=93pJFVC1RSI",
     hacked: false,
     vids: [],
     key: 28
@@ -530,7 +530,7 @@ const list = [
     author: "Koreaqwer and more",
     percentToQualify: 78,
     desc: "",
-    verificationVid: "https://youtube.com/watch?v=Ku4NNtHvb88",
+    verificationVid: "youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
     vids: [],
     key: 29
