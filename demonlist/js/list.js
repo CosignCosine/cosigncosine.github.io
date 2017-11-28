@@ -325,7 +325,7 @@ const list = [
     "author": "LogiC and Marwec",
     "percentToQualify": "67",
     "desc": "n/a",
-    "verificationVid": "www.youtu.be/QqzMg9mkM2A?t=4h28m12s",
+    "verificationVid": "www.youtube.com/watch?v=QqzMg9mkM2A?t=4h28m12s",
     "hacked": false,
     "vids": [{
       "user": "TheFrozenTideGD",
