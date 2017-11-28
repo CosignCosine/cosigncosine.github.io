@@ -55,6 +55,28 @@
       </div>
     </div>
   </cover-all>
+  <script>
+    // height changing script
+    var height = window.screen.height;
+    let remainingHeight = (height - 197) + "px";
+    $("#list").css('height', remainingHeight)
+    $("#additional-information").css('height', remainingHeight)
+    $("#info").css('height', remainingHeight)
+
+    // random color
+    var c = Math.floor(Math.random()*256);
+    function cueCSS(){
+      if(c > 25 && c < 170){
+        $("*").css('color', 'black')
+        $("hr").css('border', '1px solid black')
+      }else{
+        $("*").css('color', 'white')
+        $("hr").css('border', '1px solid white')
+      }
+    }
+    cueCSS();
+    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 50%);')
+  </script>
   <script name="postload" type="text/javascript">
   list.sort(function(a, b){
     return a.key - b.key;
@@ -120,28 +142,6 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
     load(l * 1)
-  </script>
-  <script>
-    // height changing script
-    var height = window.screen.height;
-    let remainingHeight = (height - 197) + "px";
-    $("#list").css('height', remainingHeight)
-    $("#additional-information").css('height', remainingHeight)
-    $("#info").css('height', remainingHeight)
-
-    // random color
-    var c = Math.floor(Math.random()*256);
-    function cueCSS(){
-      if(c > 25 && c < 170){
-        $("*").css('color', 'black')
-        $("hr").css('border', '1px solid black')
-      }else{
-        $("*").css('color', 'white')
-        $("hr").css('border', '1px solid white')
-      }
-    }
-    cueCSS();
-    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 50%);')
   </script>
   <noscript>
       <div id="block">
