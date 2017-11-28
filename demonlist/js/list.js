@@ -325,12 +325,12 @@ const list = [
     "author": "LogiC and Marwec",
     "percentToQualify": "67",
     "desc": "n/a",
-    "verificationVid": "youtu.be/QqzMg9mkM2A?t=4h28m12s",
+    "verificationVid": "www.youtu.be/QqzMg9mkM2A?t=4h28m12s",
     "hacked": false,
     "vids": [{
       "user": "TheFrozenTideGD",
       "percent": "100",
-      "link": "youtu.be/Gxhmg7lXbHU?t=2m47s"
+      "link": "www.youtu.be/Gxhmg7lXbHU?t=2m47s"
     }, {
       "user": "Roldan and Mauro",
       "percent": "100",
@@ -460,7 +460,7 @@ const list = [
     author: "AirSwipe and more [Sezuh]",
     percentToQualify: 62,
     desc: "",
-    verificationVid: "youtube.com/watch?v=umIxQyVx73s",
+    verificationVid: "www.youtube.com/watch?v=umIxQyVx73s",
     hacked: false,
     vids: [],
     key: 7
@@ -500,7 +500,7 @@ const list = [
     author: "Lithifusion [BoldStep]",
     percentToQualify: 37,
     desc: "",
-    verificationVid: "youtube.com/watch?v=UQvPvOGYdpw",
+    verificationVid: "www.youtube.com/watch?v=UQvPvOGYdpw",
     hacked: false,
     vids: [],
     key: 15
@@ -530,7 +530,7 @@ const list = [
     author: "Koreaqwer and more",
     percentToQualify: 78,
     desc: "",
-    verificationVid: "youtube.com/watch?v=Ku4NNtHvb88",
+    verificationVid: "www.youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
     vids: [],
     key: 29
