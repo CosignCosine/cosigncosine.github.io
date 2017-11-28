@@ -460,7 +460,7 @@ const list = [
     author: "AirSwipe and more [Sezuh]",
     percentToQualify: 62,
     desc: "",
-    verificationVid: "www.youtube.com/watch?v=umIxQyVx73s",
+    verificationVid: "https://www.youtube.com/watch?v=umIxQyVx73s",
     hacked: false,
     vids: [],
     key: 7
