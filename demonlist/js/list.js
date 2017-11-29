@@ -214,7 +214,12 @@ const list = [
       "user": "Snowballer",
       "percent": "100",
       "link": "www.youtube.com/watch?v=Ij_Q2t1mU_w"
-    }],
+    }, {
+      user: "Chuck",
+      percent: 100,
+      link: "https://youtube.com/watch?v=jzden0f88V0"
+    }
+  ],
     key: 23
   },
   {
