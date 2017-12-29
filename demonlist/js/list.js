@@ -19,7 +19,7 @@ const list = [
         link: 'www.youtube.com/watch?v=f0u8KIxhTzI'
       }
     ],
-    key: 2
+    key: 1
   },
   {
     name: 'Athanasia',
@@ -55,7 +55,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=Xp5mlIpa59E&t=12s'
     }],
-    key: 6
+    key: 2
   },
   {
     name: 'The Hell Origin',
@@ -89,7 +89,7 @@ const list = [
     vids: [
 
     ],
-    key: 10
+    key: 6
   },
   {
     name: 'WcropoliX',
@@ -104,7 +104,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
     }],
-    key: 3
+    key: 8
   },
   {
     name: 'Angelic Blood',
@@ -135,6 +135,17 @@ const list = [
         link: 'www.youtube.com/watch?v=GttquMBW-SI'
       }
     ],
+    key: 20
+  },
+  {
+    name: 'Gammaray',
+    author: 'Stardust1971 [Rlol]',
+    id: 'n/a',
+    hacked: false,
+    percentToQualify: 0,
+    desc: 'n/a',
+    verificationVid: '',
+    vids: [],
     key: 21
   },
   {
@@ -161,7 +172,7 @@ const list = [
         link: 'www.youtube.com/watch?v=G5CRITTn14Q'
       }
     ],
-    key: 11
+    key: 10
   },
   {
     name: 'Factory Realm X',
@@ -173,7 +184,7 @@ const list = [
     vids: [
 
     ],
-    key: 18
+    key: 16
   },
   {
     "name": "Paracosm Hell",
@@ -183,7 +194,7 @@ const list = [
     "verificationVid": "www.youtube.com/watch?v=KqSAIG93GwU",
     "hacked": false,
     "vids": [],
-    key: 13
+    key: 9
   },
   {
     "name": "Instant Execution",
@@ -197,7 +208,7 @@ const list = [
       percent: 100,
       link: 'www.youtube.com/watch?v=jPU0NXcc0CI'
     }, ],
-    key: 12
+    key: 7
   },
   {
     "name": "The Chaos Machine",
@@ -220,7 +231,7 @@ const list = [
       link: "https://youtube.com/watch?v=jzden0f88V0"
     }
   ],
-    key: 23
+    key: 22
   },
   {
     "name": "Cosmorush 21",
@@ -260,7 +271,7 @@ const list = [
         link: 'www.youtube.com/watch?v=umu2AnkkY7U'
       }
     ],
-    key: 17
+    key: 15
   },
   {
     "name": "Red World",
@@ -278,7 +289,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=a96YKaUU5GI&t=48s"
     }],
-    key: 19
+    key: 17
   },
   {
     "name": "Deadly Corridor",
@@ -309,7 +320,7 @@ const list = [
           link: 'www.youtube.com/watch?v=tneX0tn1wGw'
         }
     ],
-    key: 20
+    key: 18
   },
   {
     "name": "Future Demoness X",
@@ -323,7 +334,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=0ltf7ejzAaA"
     }],
-    key: 24
+    key: 23
   },
   {
     "name": "A Darker Fate",
@@ -345,7 +356,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
     }],
-    key: 16
+    key: 13
   },
   /*
   {
@@ -374,7 +385,7 @@ const list = [
     "verificationVid": "www.youtube.com/watch?v=BVk5VsKyTvg",
     "hacked": false,
     "vids": [],
-    key: 27
+    key: 26
   },
   {
     "name": "The Last Straw",
@@ -388,7 +399,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
     }],
-    key: 25
+    key: 24
   },
   {
     "name": "Magnix",
@@ -430,7 +441,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=p6St3MBrwP4"
     }],
-    key: 30
+    key: 29
   },
   {
     "name": "Belic",
@@ -448,7 +459,7 @@ const list = [
       "percent": "100",
       "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
     }],
-    key: 26
+    key: 25
   },
   {
     name: "Luminous Planet",
@@ -458,7 +469,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=NnhHBJ9bQtg",
     hacked: false,
     vids: [],
-    key: 2
+    key: 4
   },
   {
     name: "River Twygz",
@@ -468,7 +479,7 @@ const list = [
     verificationVid: "https://www.youtube.com/watch?v=umIxQyVx73s",
     hacked: false,
     vids: [],
-    key: 7
+    key: 3
   },
   {
     name: "Mujiage",
@@ -478,7 +489,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=j-q_Fd1Hrso",
     hacked: false,
     vids: [],
-    key: 8
+    key: 11
   },
   {
     name: "Game Over",
@@ -488,7 +499,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=tH5avKOW2w4",
     hacked: false,
     vids: [],
-    key: 9
+    key: 12
   },
   {
     name: "Poltergeist Reborn",
@@ -501,16 +512,6 @@ const list = [
     key: 14
   },
   {
-    name: "Killbot",
-    author: "Lithifusion [BoldStep]",
-    percentToQualify: 37,
-    desc: "",
-    verificationVid: "www.youtube.com/watch?v=UQvPvOGYdpw",
-    hacked: false,
-    vids: [],
-    key: 15
-  },
-  {
     name: "Leziclub",
     author: "ScpLanst [Sunix]",
     percentToQualify: 60,
@@ -518,7 +519,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=J3eL9aaUt9o",
     hacked: false,
     vids: [],
-    key: 28
+    key: 27
   },
   {
     name: "Chaotic Machine",
@@ -528,7 +529,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=93pJFVC1RSI",
     hacked: false,
     vids: [],
-    key: 29
+    key: 28
   },
   {
     name: "The Elysium",
@@ -538,6 +539,6 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
     vids: [],
-    key: 22
+    key: 19
   }
 ];
