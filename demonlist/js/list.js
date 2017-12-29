@@ -121,9 +121,9 @@ const list = [
     author: 'Stardust1971 [Rlol]',
     id: 'n/a',
     hacked: false,
-    percentToQualify: 0,
+    percentToQualify: 59,
     desc: 'n/a',
-    verificationVid: '',
+    verificationVid: 'https://youtu.be/dQxJxqY7HPA',
     vids: [],
     key: 21
   },
