@@ -58,27 +58,6 @@ const list = [
     key: 2
   },
   {
-    name: 'The Hell Origin',
-    author: 'Stormfly and more',
-    id: 'n/a',
-    hacked: false,
-    percentToQualify: 42,
-    desc: `n/a`,
-    verificationVid: 'www.youtube.com/watch?v=2fZ_4jAGsQc',
-    vids: [{
-        user: 'Luqualizer',
-        percent: 100,
-        link: 'www.youtube.com/watch?v=jX1rqngvBQI'
-      },
-      {
-        user: 'Herdys',
-        percent: 100,
-        link: 'www.youtube.com/watch?v=1lWqpU3E6PM'
-      }
-    ],
-    key: 4
-  },
-  {
     name: 'Asmodeus',
     author: 'Vexion and more [Sonic80]',
     id: 'n/a',
