@@ -123,7 +123,7 @@ const list = [
     hacked: false,
     percentToQualify: 59,
     desc: 'n/a',
-    verificationVid: 'https://www.youtube.com/watch?v=dQxJxqY7HPA',
+    'verificationVid': 'https://www.youtube.com/watch?v=dQxJxqY7HPA',
     vids: [],
     key: 21
   },
