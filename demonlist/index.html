@@ -97,8 +97,7 @@
         num = $(node).attr('value')
       }
       var entry = list[num];
-      if(entry.verificationVid === '') entry.verificationVid = null;
-      if (!entry) {
+      if (!entry || entry === null) {
         load(0)
       } else {
         if (!entry.hacked && (entry.verificationVid !== null && entry.verificationVid !== "")) {
