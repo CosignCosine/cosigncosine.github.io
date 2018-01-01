@@ -121,7 +121,7 @@
 
         $(record_node).empty();
         entry.vids.sort(function(a, b){
-          return a.percent - b.percent;
+          return b.percent - a.percent;
         });
         for (var j = 0; j < entry.vids.length; j++) {
           var record = entry.vids[j];
