@@ -341,10 +341,6 @@ const list = [
       "user": "Roldan and Mauro",
       "percent": "100",
       "link": "www.youtube.com/watch?v=bXCB7NzbsTM"
-    }, {
-      "user": "Skips Dasher",
-      "percent": "100",
-      "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
     }, {user: 'Marwec107', percent: 88, link: 'https://youtu.be/zg6Y5Kx8Kn8'}],
     key: 13
   },
