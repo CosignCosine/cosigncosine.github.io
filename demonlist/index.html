@@ -57,11 +57,13 @@
   </cover-all>
   <script>
     // height changing script
-    var height = $(window).height();
-    let remainingHeight = (height - 197) + "px";
-    $("#list").css('height', remainingHeight)
-    $("#additional-information").css('height', remainingHeight)
-    $("#info").css('height', remainingHeight)
+    setInterval(function(){
+      var height = $(window).height();
+      let remainingHeight = (height - 197) + "px";
+      $("#list").css('height', remainingHeight)
+      $("#additional-information").css('height', remainingHeight)
+      $("#info").css('height', remainingHeight)
+    }, 500)
 
     // random color
     var c = Math.floor(Math.random()*256);
