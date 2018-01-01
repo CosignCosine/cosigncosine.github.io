@@ -82,7 +82,12 @@ const list = [
       user: 'EndLevel',
       percent: 100,
       link: 'www.youtube.com/watch?v=y8ZyzbrVl_0'
-    }],
+    },
+           {
+             user: 'MullsY Dash',
+             percent: 100,
+             link: 'https://youtu.be/KsZt_NhD1i0'
+           }],
     key: 8
   },
   {
@@ -149,7 +154,9 @@ const list = [
         user: 'PlasmaShock',
         percent: 100,
         link: 'www.youtube.com/watch?v=G5CRITTn14Q'
-      }
+      },
+           {user: 'GeometryJosh', percent: 100, link: 'https://youtu.be/SEAZI4rBWWg'},
+           {user: 'Atomic', percent: 100, link: 'https://youtu.be/HR2BzKGisAQ'}
     ],
     key: 10
   },
@@ -172,7 +179,7 @@ const list = [
     "desc": "n/a",
     "verificationVid": "www.youtube.com/watch?v=KqSAIG93GwU",
     "hacked": false,
-    "vids": [],
+    "vids": [{user: 'ToshDeluxe', percent: 72, link: 'https://youtu.be/UQ-71BuZNtU'}],
     key: 9
   },
   {
@@ -334,7 +341,7 @@ const list = [
       "user": "Skips Dasher",
       "percent": "100",
       "link": "www.youtube.com/watch?v=tB_TtaFUGMU"
-    }],
+    }, {user: 'Marwec107', percent: 88, link: 'https://youtu.be/zg6Y5Kx8Kn8'}],
     key: 13
   },
   /*
@@ -477,7 +484,10 @@ const list = [
     desc: "",
     verificationVid: "www.youtube.com/watch?v=tH5avKOW2w4",
     hacked: false,
-    vids: [],
+    vids: [
+      {user: 'zylenox', percent: 98, link: 'https://youtu.be/gaRRQHSmU4M'},
+      
+    ],
     key: 12
   },
   {
@@ -497,7 +507,7 @@ const list = [
     desc: "",
     verificationVid: "www.youtube.com/watch?v=J3eL9aaUt9o",
     hacked: false,
-    vids: [],
+    vids: [{user: 'VileX', percent: 100, link: 'https://youtu.be/oTMc15P_dps'}],
     key: 27
   },
   {
