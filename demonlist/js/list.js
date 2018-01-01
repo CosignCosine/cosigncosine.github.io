@@ -532,7 +532,10 @@ const list = [
     desc: "",
     verificationVid: "www.youtube.com/watch?v=Ku4NNtHvb88",
     hacked: false,
-    vids: [],
+    vids: [
+      {user: 'YoshinoDash', percent: 100, link: 'https://youtu.be/d-q10ImtBEE'},
+      {user: 'Toshino Kyoko', percent: 100, link: 'https://youtu.be/VhPgSYapxVg'},
+    ],
     key: 19
   }
 ];
