@@ -57,7 +57,7 @@
   </cover-all>
   <script>
     // height changing script
-    var height = window.screen.height;
+    var height = $(window).height();
     let remainingHeight = (height - 197) + "px";
     $("#list").css('height', remainingHeight)
     $("#additional-information").css('height', remainingHeight)
