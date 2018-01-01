@@ -276,7 +276,8 @@ const list = [
       "link": "www.youtube.com/watch?v=a96YKaUU5GI&t=48s"
     },
              {user: 'Metalface221', percent: 100, link: 'https://youtu.be/Wcl8EASMBnY'},
-             {user: 'Kevtom', percent: 100, link: 'https://youtu.be/-OZmlz2YhxE'}],
+             {user: 'Kevtom', percent: 100, link: 'https://youtu.be/-OZmlz2YhxE'},
+             {user: 'Xmeritt', percent: 100, link: 'https://youtu.be/Po_ogI5PHgE'}],
     key: 17
   },
   {
