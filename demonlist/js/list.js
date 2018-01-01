@@ -522,7 +522,22 @@ const list = [
     desc: "",
     verificationVid: "www.youtube.com/watch?v=93pJFVC1RSI",
     hacked: false,
-    vids: [],
+    vids: [
+      {user: 'SrGuillester', percent: 100, link: 'https://youtu.be/EB_DEHQaRlI'},
+      {user: 'Luqualizer', percent: 100, link: 'https://youtu.be/f6jZc5y8jWQ'},
+      {user: 'Pacosky18', percent: 100, link: 'https://youtu.be/grnH9grZG7Y'},
+      {user: 'Failure444', percent: 100, link: 'https://youtu.be/8N-GI9YWkC4'},
+      {user: 'GMD SirHc', percent: 100, link: 'https://youtu.be/upxDiKTrzVo'},
+      {user: 'GBC', percent: 80, link: 'https://youtu.be/-xV6WdJYv-E'},
+      {user: 'Kevtom', percent: 100, link: 'https://youtu.be/TtdUDmG3kJo'},
+      {user: 'Haunted [GD]', percent: 100, link: 'https://youtu.be/r0_n91m5Pk4'},
+      {user: 'Nelluque', percent: 73, link: 'https://youtu.be/Wy8Q3C7QJIw'},
+      {user: 'Loeckske', percent: 100, link: 'https://youtu.be/Kld-KTdhEAc'},
+      {user: 'Licentious', percent: 100, link: 'https://youtu.be/lPuTUvPIW2M'},
+      {user: 'Jukaro', percent: 100, link: 'https://youtu.be/kfYnGTNUVTg'},
+      {user: 'MaKZ71 [RSP]', percent: 76, link: 'https://youtu.be/mZWoWHjzuck'},
+      {user: 'Kv082', percent: 63, link: 'https://youtu.be/sST_sfzSVaY'}
+    ],
     key: 28
   },
   {
