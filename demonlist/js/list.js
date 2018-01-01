@@ -180,7 +180,7 @@ const list = [
     "author": "Plexidit and more",
     "percentToQualify": "62",
     "desc": "n/a",
-    "verificationVid": "https://youtube.com/watch?v=Knz2Arp0N5s",
+    "verificationVid": "https://www.youtube.com/watch?v=Knz2Arp0N5s",
     "hacked": false,
     "vids": [{
       user: 'Mactanow',
