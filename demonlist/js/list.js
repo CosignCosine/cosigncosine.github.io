@@ -264,7 +264,7 @@ const list = [
     "author": "SirGuillester",
     "percentToQualify": "64",
     "desc": "n/a",
-    "verificationVid": null,
+    "verificationVid": 'https://www.youtube.com/watch?v=hL24xcJPnyY',
     "hacked": false,
     "vids": [{
       "user": "HequinoX",
@@ -277,7 +277,8 @@ const list = [
     },
              {user: 'Metalface221', percent: 100, link: 'https://youtu.be/Wcl8EASMBnY'},
              {user: 'Kevtom', percent: 100, link: 'https://youtu.be/-OZmlz2YhxE'},
-             {user: 'Xmeritt', percent: 100, link: 'https://youtu.be/Po_ogI5PHgE'}],
+             {user: 'Xmeritt', percent: 100, link: 'https://youtu.be/Po_ogI5PHgE'},
+             {user: 'TrusTa', percent: 95, link: 'https://youtu.be/wZAeUs6FTcA'}],
     key: 17
   },
   {
@@ -447,7 +448,11 @@ const list = [
       "user": "Jacob Firestone",
       "percent": "100",
       "link": "www.youtube.com/watch?v=eSJ9FAuMaT0"
-    }],
+    },
+             {
+               user: 'GMD soonDae', percent: 84, link: 'https://youtu.be/seqQDi9zWss'
+             },
+             {user: 'Temporum', percent: 100, link: 'https://youtu.be/6JUZYaTNfKo'}],
     key: 25
   },
   {
