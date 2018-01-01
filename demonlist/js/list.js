@@ -388,7 +388,8 @@ const list = [
       "user": "Luqualizer",
       "percent": "100",
       "link": "www.youtube.com/watch?v=PGSFHB9LSIU"
-    }],
+    },
+             {user: 'Gab\'s', percent: 100, link: 'https://youtu.be/KhGFCkbjDZc'}],
     key: 24
   },
   {
