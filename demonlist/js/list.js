@@ -502,7 +502,13 @@ const list = [
     desc: "",
     verificationVid: "www.youtube.com/watch?v=DaWHQhsgX9M",
     hacked: false,
-    vids: [],
+    vids: [
+      {user: 'Ishtar GD', percent: 58, link: 'https://youtu.be/r4k2uijgWNc'},
+      {user: 'Temporum', percent: 100, link: 'https://youtu.be/mS9zVwrGfuE'},
+      {user: 'Skullo', percent: 100, link: 'https://youtu.be/K7EGkFiGhtQ'},
+      {user: 'Mactanow', percent: 94, link: 'https://youtu.be/CPW2F2EeXAo'},
+      {user: 'Antares', percent: 94, link: 'https://youtu.be/5Iu3kXjU-Qo'}
+    ],
     key: 14
   },
   {
@@ -536,7 +542,10 @@ const list = [
       {user: 'Licentious', percent: 100, link: 'https://youtu.be/lPuTUvPIW2M'},
       {user: 'Jukaro', percent: 100, link: 'https://youtu.be/kfYnGTNUVTg'},
       {user: 'MaKZ71 [RSP]', percent: 76, link: 'https://youtu.be/mZWoWHjzuck'},
-      {user: 'Kv082', percent: 63, link: 'https://youtu.be/sST_sfzSVaY'}
+      {user: 'Kv082', percent: 63, link: 'https://youtu.be/sST_sfzSVaY'},
+      {user: 'Amaranth', percent: 100, link: 'https://youtu.be/jiwTgEReOF0'},
+      {user: 'Spamdrew128', percent: 100, link: 'https://youtu.be/ZFh1FbfYViU'},
+      {user: 'CarlozZz', percent: 64, link: 'https://youtu.be/zP5DGhn23Nw'}
     ],
     key: 28
   },
