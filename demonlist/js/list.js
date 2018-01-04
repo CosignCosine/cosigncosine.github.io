@@ -473,7 +473,7 @@ const list = [
     key: 3
   },
   {
-    name: "Mujiage",
+    name: "Mujigae",
     author: "swithi [Freaklin]",
     percentToQualify: 48,
     desc: "",
@@ -490,7 +490,7 @@ const list = [
     verificationVid: "www.youtube.com/watch?v=tH5avKOW2w4",
     hacked: false,
     vids: [
-      {user: 'zylenox', percent: 98, link: 'https://youtu.be/gaRRQHSmU4M'},
+      {user: 'zylenox', percent: 100, link: 'https://youtu.be/gaRRQHSmU4M'},
       
     ],
     key: 12
