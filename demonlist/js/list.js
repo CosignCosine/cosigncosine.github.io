@@ -255,7 +255,8 @@ const list = [
         user: 'Landest',
         percent: 64,
         link: 'www.youtube.com/watch?v=umu2AnkkY7U'
-      }
+      },
+             {user: 'Aldo Ewaldo', percent: 100, link: 'https://www.youtube.com/watch?v=DHKuLvIMVhs'}
     ],
     key: 15
   },
@@ -562,5 +563,17 @@ const list = [
       {user: 'Toshino Kyoko', percent: 100, link: 'https://youtu.be/VhPgSYapxVg'},
     ],
     key: 19
+  },
+  {
+    name: 'Furious Flames',
+    author: 'Failure444 [BrianTheBurger]',
+    percentToQualify: 0,
+    desc: "",
+    verificationVid: 'www.youtube.com/watch?v=tyjDGpoRrc8',
+    hacked: false,
+    vids: [
+      
+      ],
+    key: 100
   }
 ];
