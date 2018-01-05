@@ -567,7 +567,7 @@ const list = [
   {
     name: 'Furious Flames',
     author: 'Failure444 [BrianTheBurger]',
-    percentToQualify: 0,
+    percentToQualify: 61,
     desc: "",
     verificationVid: 'www.youtube.com/watch?v=tyjDGpoRrc8',
     hacked: false,
