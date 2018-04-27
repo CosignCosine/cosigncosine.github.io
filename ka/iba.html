@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Integration by Approximation</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <style>
+            body{
+                padding: 1em;
+            } /* ji */
+            :focus{
+                outline: 0 !important;
+            }
+        </style>
+        <script>
+            var eq = [];
+            var variables = ["y", "x"]
+            function update_eq(){
+                var str = "";
+                for(var i = 0; i < eq.length; i++){
+                    var term = eq[i];
+                    console.log(term);
+                    switch(term.type){
+                        case 'poly':
+                            str += "<span class='editeq' onclick='assign(" + i + ")'>" + (i == 0 ? (term.sign == "+" ? "" : term.sign) : term.sign + " ") + term.a + variables[1] + "<sup>" + term.b + "</sup> </span>"; break;
+                        case 'trig':
+                            str += "<span class='editeq' onclick='assign(" + i + ")'>" + (i == 0 ? (term.sign == "+" ? "" : term.sign) : term.sign + " ") + term.a + "<em>" + term.tr + "</em><sup>" + term.b + "</sup>" + variables[1] + " </span>"; break;
+                    }
+                }
+                $("#eq").html(str)
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Integration by Approximation</h1>
+        <h4>by Scott Schraeder</h4>
+        <hr>
+        <h3>Choose your Equation</h3>
+        <div>
+            Integration Function:&nbsp;<code id="eq"></code><br>
+            Click on a term to edit it.<br>
+            Edit term: <span id="editterm"><input id='sign'><input id='a'><input id='b'><select id='tr' disabled>
+                <option value='sin'>sin</option>
+                <option value='cos'>cos</option>
+                <option value='tan'>tan</option>
+                <option value='asin'>asin</option>
+                <option value='acos'>acos</option>
+                <option value='atan'>atan</option>
+            </select><button id="upd" class="btn btn-default">Update Term</button><button id="del" class="btn btn-default">Delete Term</button></span>
+        </div>
+        <div>
+            <button id="poly" class="btn btn-default">Add Polynomial Term</button>
+            <button id="trig" class="btn btn-default">Add Trigonometric Term</button>
+            <button id="exp" class="btn btn-default">Add Exponential Term</button>
+        </div>
+        <div>
+            <button id="rect" class="btn btn-default">Rectangular Rule</button>
+            <button id="trap" class="btn btn-default">Trapezoidal Rule</button>
+            <button id="tor" class="btn btn-default">That Other Rule</button>
+        </div>
+        <script>
+        var editnum = -1;
+        var assign = function(n){
+            editnum = n;
+            $("#sign").val(eq[n].sign)
+            $("#a").val(eq[n].a)
+            $("#b").val(eq[n].b)
+            if(eq[n].type === "trig"){
+                $("#tr").prop('disabled', false);
+            }else{
+                $("#tr").prop('disabled', true);
+            }
+        };
+        $("#upd").click(function(){
+            if(eq[editnum]){
+                eq[editnum].sign = $("#sign").val();
+                eq[editnum].a = Math.abs($("#a").val()*1);
+                eq[editnum].b = $("#b").val()*1;
+                if(eq[editnum].type === "trig"){
+                    eq[editnum].tr = $("#tr").val();
+                    
+                }
+                console.log(eq)
+                update_eq();
+            }
+        })
+        $("#del").click(function(){
+            if(eq[editnum]){
+                eq.splice(editnum, 1);
+                editnum = -1;
+                $("#sign").val("");
+                $("#a").val("");
+                $("#b").val("");
+                $("#tr").prop('disabled', true)
+                update_eq();
+            }
+        })
+            $("#poly").click(function(){
+                eq.push({type: "poly", a: "0", b: "0", sign: "+"})
+                update_eq();
+            })
+            $("#trig").click(function(){
+                eq.push({type: "trig", a: "0", b: "0", sign: "+", tr: 'sin'})
+                update_eq();
+            })
+            $("#exp").click(function(){
+                eq.push({type: "exp", a: "0", b: "0", sign: "+"})
+                update_eq();
+            })
+        </script>
+    </body>
+</html>
