@@ -63,7 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', e
       });
       var oldValue = editor.getValue();
       if(localStorage.strung){
-        editor.setValue(strung);
+        editor.setValue(localStorage.strung);
       }
 
       function debounce(func, wait, immediate) {
