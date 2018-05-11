@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>p5 Live Editor</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700|Inconsolata" rel="stylesheet">
     <script src="https://cdn.rawgit.com/ajaxorg/ace-builds/master/src-noconflict/ace.js" type="text/javascript"></script>
     <style>
       html{
@@ -54,11 +54,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', e
     <div id="editor">//type here</div>
     <iframe id="live"></iframe>
     <script>
+    console.log('version 2')
       var editor = ace.edit("editor");
       editor.setTheme("ace/theme/sqlserver");
       editor.session.setMode("ace/mode/javascript");
       editor.setOptions({
-        fontFamily: "monospace",
+        fontFamily: "Inconsolata",
         fontSize: "17px"
       });
       var oldValue = editor.getValue();
