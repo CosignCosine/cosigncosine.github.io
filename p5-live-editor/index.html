@@ -63,6 +63,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', e
       });
       var oldValue = editor.getValue();
 
+<<<<<<< HEAD
+      function debounce(func, wait, immediate) {
+      	var timeout;
+      	return function() {
+      		var context = this, args = arguments;
+      		var later = function() {
+      			timeout = null;
+      			if (!immediate) func.apply(context, args);
+      		};
+      		var callNow = immediate && !timeout;
+      		clearTimeout(timeout);
+      		timeout = setTimeout(later, wait);
+      		if (callNow) func.apply(context, args);
+      	};
+      };
+      document.addEventListener("keyup", debounce(fini, 500, false));
+=======
       // https://stackoverflow.com/questions/4220126/run-javascript-function-when-user-finishes-typing-instead-of-on-key-up
       //setup before functions
       var typingTimer;                //timer identifier
@@ -72,11 +89,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', e
           clearTimeout(typingTimer);
           typingTimer = setTimeout(doneTyping, doneTypingInterval);
       });
+>>>>>>> 2e8a095ae3de37528dc0e9cff31c85c4b0202f00
 
       function canvasAlert(){
         document.write('hi')
       }
+<<<<<<< HEAD
+      function fini () {
+=======
       function doneTyping () {
+>>>>>>> 2e8a095ae3de37528dc0e9cff31c85c4b0202f00
         if(oldValue !== editor.getValue()){
           var output = "<!DOCTYPE HTML><html><head><title>easter egg<\/title><script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/p5.js\/0.6.1/p5.js\"><\/script></head><body><div id=\"holder\" style=\"position: fixed; top: 0; left: 0; height: 100%; width: 100;\"></div><script type=\"text/javascript\">try{function setup() {var canvas = createCanvas(windowWidth, windowHeight);canvas.parent('holder');background(255, 0, 200);" + editor.getValue() + '};function windowResized() {resizeCanvas(windowWidth, windowHeight);};}catch(e){console.log(e)}<\/script><\/body><\/head>';
           document.getElementById("live").srcdoc = output;
