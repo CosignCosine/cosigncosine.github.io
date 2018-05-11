@@ -77,14 +77,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', e
       		if (callNow) func.apply(context, args);
       	};
       };
-      document.addEventListener("keyup", debounce(fini, 500, false));
+      document.addEventListener("keyup", debounce(fini, 200, false));
 
       function canvasAlert(){
         document.write('hi')
       }
       function fini () {
         if(oldValue !== editor.getValue()){
-          var output = "<!DOCTYPE HTML><html><head><title>easter egg<\/title><script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/p5.js\/0.6.1/p5.js\"><\/script></head><body><div id=\"holder\" style=\"position: fixed; top: 0; left: 0; height: 100%; width: 100;\"></div><script type=\"text/javascript\">try{function setup() {var canvas = createCanvas(windowWidth, windowHeight);canvas.parent('holder');background(255, 0, 200);" + editor.getValue() + '};function windowResized() {resizeCanvas(windowWidth, windowHeight);};}catch(e){console.log(e)}<\/script><\/body><\/head>';
+          var output = "<!DOCTYPE HTML><html><head><title>easter egg<\/title><script src=\"p5.min.js\"><\/script></head><body><div id=\"holder\" style=\"position: fixed; top: 0; left: 0; height: 100%; width: 100;\"></div><script type=\"text/javascript\">try{function setup() {var canvas = createCanvas(windowWidth, windowHeight);canvas.parent('holder');background(255, 0, 200);" + editor.getValue() + '};function windowResized() {resizeCanvas(windowWidth, windowHeight);};}catch(e){console.log(e)}<\/script><\/body><\/head>';
           document.getElementById("live").srcdoc = output;
           oldValue = editor.getValue();
           document.getElementById("live").contentWindow.onerror = document.getElementById("live").contentWindow.onError = function() {
