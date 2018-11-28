@@ -2,7 +2,7 @@ bl_info = {
 	"name": "Sketchup to Cities: Skylines Helper",
 	"description": "Helps the user convert SketchUp assets to a format recognizable by Cities: Skylines. Created by CosignCosine (Elektrix on ST)",
 	"author": "CosignCosine (Elektrix)",
-	"version": (0, 4, 1),
+	"version": (0, 5, 0),
 	"location": "Properties > Scene",
 	"warning": "This tool is still in beta.",
 	"wiki_url": "https://community.simtropolis.com/profile/745638-elektrix/",
@@ -12,9 +12,24 @@ bl_info = {
 
 import bpy, time
 
-from bpy.props import EnumProperty
-
 # Operators
+class SCSHAll(bpy.types.Operator):
+	bl_idname = "cosigncosine.scsh_all"
+	bl_label = "Quick Convert"
+
+	def execute(self, context):
+		bpy.ops.cosigncosine.scsh_rm_sk_cm()
+		self.report({'INFO'}, "Removed Sketchup Camera (1/5)")
+		bpy.ops.cosigncosine.scsh_caaa()
+		self.report({'INFO'}, "Created Texture Atlas (2/5)")
+		bpy.ops.object.ms_auto()
+		self.report({'INFO'}, "Unwrapped All to Atlas (3/5)")
+		bpy.ops.cosigncosine.scsh_sk_rd()
+		self.report({'INFO'}, "Marked Correct UVs as Renderable (4/5)")
+		bpy.ops.cosigncosine.scsh_btta()
+		self.report({'INFO'}, "Done! (5/5))")
+		return {"FINISHED"}
+
 class SCSHBlankCanvas(bpy.types.Operator):
 	bl_idname = "cosigncosine.scsh_bl_cv"
 	bl_label = "Blank Canvas"
@@ -101,8 +116,16 @@ class SCSHMainPanel(bpy.types.Panel):
 	bl_context = "scene"
 
 	def draw(self, context):
+		scsh_a = self.layout.column(align=True)
+		scsh_a.label(text="Setup", icon="MODIFIER")
+		scsh_a.operator("cosigncosine.scsh_bl_cv", text="Blank Canvas", icon="CANCEL")
+
+		scsh_b = self.layout.column(align=True)
+		scsh_b.label(text="Automatic", icon="NEXT_KEYFRAME")
+		scsh_b.operator("cosigncosine.scsh_all", text="Quick Convert", icon="SOLO_ON")
+
 		scsh_c = self.layout.column(align=True)
-		scsh_c.operator("cosigncosine.scsh_bl_cv", text="Blank Canvas", icon="CANCEL")
+		scsh_c.label(text="Manual", icon="VIEWZOOM")
 		scsh_c.operator("cosigncosine.scsh_rm_sk_cm", text="Remove Cameras", icon="CAMERA_DATA")
 		scsh_c.operator("cosigncosine.scsh_caaa", text="Create Atlas; Add All", icon="OUTLINER_OB_GROUP_INSTANCE")
 		scsh_c.operator("object.ms_auto", text="Auto Unwrap to Atlas", icon="LAMP_SPOT")
@@ -118,6 +141,7 @@ def register():
 	bpy.utils.register_class(SCSHRemoveSketchupCamera);
 	bpy.utils.register_class(SCSH_TACreateAndAddAll);
 	bpy.utils.register_class(SCSHBakeToTextureAtlas);
+	bpy.utils.register_class(SCSHAll);
 	bpy.utils.register_class(SCSHMainPanel);
 def unregister():
 	print("SCSH Removed")
@@ -126,4 +150,5 @@ def unregister():
 	bpy.utils.unregister_class(SCSHRemoveSketchupCamera);
 	bpy.utils.unregister_class(SCSH_TACreateAndAddAll);
 	bpy.utils.unregister_class(SCSHBakeToTextureAtlas);
+	bpy.utils.unregister_class(SCSHAll);
 	bpy.utils.unregister_class(SCSHMainPanel);
